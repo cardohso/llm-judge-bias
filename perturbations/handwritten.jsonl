@@ -1,0 +1,224 @@
+{"question": "q01", "generator": "AB", "type": "ADD", "subtype": "", "text": "This limit is measured with the main air compressor running for at least 10 minutes"}
+{"question": "q01", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "65 dB", "replace": "64 dB"}
+{"question": "q01", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "65 dB", "replace": "64 dB"}
+{"question": "q01", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "the stationary noise limit LpAeq,T[unit] is 65 dB", "replace": "the stationary noise level LpAeq,T[unit] must be at least 65 dB"}
+{"question": "q01", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "The stationary noise limit LpAeq,T for an EMU is 65 dB", "replace": "The stationary noise level LpAeq,T for an EMU must be at least 65 dB"}
+{"question": "q01", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "For an electric multiple unit (EMU), the", "replace": "For all rolling stock, the"}
+{"question": "q01", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "for an EMU", "replace": "for all rolling stock"}
+{"question": "q02", "generator": "AB", "type": "ADD", "subtype": "", "text": "The limit is relaxed for wagons that entered service before 2005"}
+{"question": "q02", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "83 dB", "replace": "81 dB"}
+{"question": "q02", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "83 dB(A)", "replace": "81 dB(A)"}
+{"question": "q02", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 83 dB", "replace": "The pass-by noise level of wagons (normalised to APL = 0,225) at 80 km/h must be at least 83 dB"}
+{"question": "q02", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "The pass-by noise limit for wagons at 80 km/h is 83 dB(A)", "replace": "The pass-by noise level of wagons at 80 km/h must be at least 83 dB(A)"}
+{"question": "q02", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "at 80 km/h is", "replace": "at all speeds is"}
+{"question": "q02", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "at 80 km/h is", "replace": "at all speeds is"}
+{"question": "q03", "generator": "AB", "type": "ADD", "subtype": "", "text": "Walkways must be at least 1,2 m wide in tunnels used by trains running faster than 200 km/h"}
+{"question": "q03", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "at least 0.8 m", "replace": "at least 1.1 m"}
+{"question": "q03", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "at least 0.8 m wide", "replace": "at least 1.1 m wide"}
+{"question": "q03", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "must be at least 0.8 m", "replace": "must be at most 0.8 m"}
+{"question": "q03", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "must be at least 0.8 m wide", "replace": "must be at most 0.8 m wide"}
+{"question": "q03", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be at least 0.8 m", "replace": "should be at least 0.8 m"}
+{"question": "q03", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be at least 0.8 m wide", "replace": "should be at least 0.8 m wide"}
+{"question": "q05", "generator": "AB", "type": "ADD", "subtype": "", "text": "Category B rolling stock must keep running for 15 minutes at 80 km/h after a fire is detected"}
+{"question": "q05", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "and 20 km for Category B", "replace": "and 5 km for Category B"}
+{"question": "q05", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "and 20 km for Category B", "replace": "and 5 km for Category B"}
+{"question": "q05", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "The maximum distance", "replace": "The minimum distance"}
+{"question": "q05", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "The maximum distance", "replace": "The minimum distance"}
+{"question": "q05", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 3, "find": " only when there are no passengers on board", "replace": ""}
+{"question": "q06", "generator": "AB", "type": "ADD", "subtype": "", "text": "Each wheelchair space must have its own power socket for electric wheelchairs"}
+{"question": "q06", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "not less than 3 wheelchair spaces", "replace": "not less than 4 wheelchair spaces"}
+{"question": "q06", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "must have 3 wheelchair spaces", "replace": "must have 4 wheelchair spaces"}
+{"question": "q06", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "not less than 3", "replace": "not more than 3"}
+{"question": "q06", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "must have 3 wheelchair spaces", "replace": "may have at most 3 wheelchair spaces"}
+{"question": "q06", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "with a length of more than 205 to 300 metres", "replace": "of any length"}
+{"question": "q06", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "that is 250 m long", "replace": "of any length"}
+{"question": "q07", "generator": "AB", "type": "ADD", "subtype": "", "text": "Doors used for wheelchair access must also have a minimum clear height of 1 900 mm"}
+{"question": "q07", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 2, "find": "of 1 000 mm when open", "replace": "of 1 050 mm when open"}
+{"question": "q07", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 2, "find": "of 1 000 mm when open", "replace": "of 1 050 mm when open"}
+{"question": "q07", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "a minimum clear useable width", "replace": "a maximum clear useable width"}
+{"question": "q07", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "The minimum clear usable width", "replace": "The maximum clear usable width"}
+{"question": "q07", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall have", "replace": "should have"}
+{"question": "q07", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 2, "find": "must have", "replace": "should have"}
+{"question": "q08", "generator": "AB", "type": "ADD", "subtype": "", "text": "The DC 1,5 kV system may only be used on lines with speeds below 160 km/h"}
+{"question": "q08", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "AC 15 kV, 16,7 Hz;", "replace": "AC 15 kV, 50 Hz;"}
+{"question": "q08", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "AC 15 kV 16,7 Hz, DC 3 kV", "replace": "AC 15 kV 50 Hz, DC 3 kV"}
+{"question": "q08", "generator": "A", "type": "NEG", "subtype": "", "sentence": 2, "find": "must be supplied with one of", "replace": "must not be supplied with one of"}
+{"question": "q08", "generator": "B", "type": "NEG", "subtype": "", "sentence": 2, "find": "only the two AC systems", "replace": "neither of the two AC systems"}
+{"question": "q08", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "New lines with a speed greater than 250 km/h must", "replace": "New lines must"}
+{"question": "q08", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 2, "find": "For new lines with speeds greater than 250 km/h, only", "replace": "For new lines, only"}
+{"question": "q09", "generator": "AB", "type": "ADD", "subtype": "", "text": "ETCS must be fitted on all new high-speed lines from the date of their opening"}
+{"question": "q10", "generator": "AB", "type": "ADD", "subtype": "", "text": "The lights must be visible from at least 200 m in daylight"}
+{"question": "q10", "generator": "A", "type": "NEG", "subtype": "", "sentence": 2, "find": "shall also be considered to comply", "replace": "shall not be considered to comply"}
+{"question": "q10", "generator": "B", "type": "NEG", "subtype": "", "sentence": 2, "find": "also complies with the requirement", "replace": "does not comply with the requirement"}
+{"question": "q10", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall consist", "replace": "should consist"}
+{"question": "q10", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall consist", "replace": "should consist"}
+{"question": "q11", "generator": "AB", "type": "ADD", "subtype": "", "text": "Wagons not yet fitted with the plates may still run until their next scheduled maintenance"}
+{"question": "q11", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "1 January 2025", "replace": "1 January 2022"}
+{"question": "q11", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "1 January 2025", "replace": "1 January 2022"}
+{"question": "q11", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "from 1 January 2026", "replace": "until 1 January 2026"}
+{"question": "q11", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "from 1 January 2026", "replace": "until 1 January 2026"}
+{"question": "q11", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be accepted", "replace": "may be accepted"}
+{"question": "q11", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be accepted", "replace": "may be accepted"}
+{"question": "q12", "generator": "AB", "type": "ADD", "subtype": "", "text": "The deadline can be extended once if the applicant agrees"}
+{"question": "q12", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "within four months", "replace": "within three months"}
+{"question": "q12", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "within four months", "replace": "within three months"}
+{"question": "q12", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "in any case within four months", "replace": "in any case not before four months"}
+{"question": "q12", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "in any case within four months", "replace": "in any case not before four months"}
+{"question": "q12", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "The Agency shall issue", "replace": "The Agency should issue"}
+{"question": "q12", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "The Agency must issue", "replace": "The Agency should issue"}
+{"question": "q14", "generator": "AB", "type": "ADD", "subtype": "", "text": "The doors must open with a force of no more than 150 N"}
+{"question": "q14", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "1,4 m wide", "replace": "1,5 m wide"}
+{"question": "q14", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "1,4 m wide", "replace": "1,5 m wide"}
+{"question": "q14", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "a minimum clear opening", "replace": "a maximum clear opening"}
+{"question": "q14", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "a minimum clear opening", "replace": "a maximum clear opening"}
+{"question": "q14", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must have", "replace": "should have"}
+{"question": "q14", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must have", "replace": "should have"}
+{"question": "q15", "generator": "AB", "type": "ADD", "subtype": "", "text": "Software updates that do not change any parameter never require a new authorisation"}
+{"question": "q15", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "point (b) of paragraph 10", "replace": "point (b) of paragraph 12"}
+{"question": "q15", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "point (b) of paragraph 10", "replace": "point (b) of paragraph 12"}
+{"question": "q15", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "which are outside the range", "replace": "which are within the range"}
+{"question": "q15", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "that fall outside the range", "replace": "that fall within the range"}
+{"question": "q15", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "is required for", "replace": "may be required for"}
+{"question": "q15", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "is required when", "replace": "may be required when"}
+{"question": "q16", "generator": "AB", "type": "ADD", "subtype": "", "text": "Communication in English is always permitted as an alternative"}
+{"question": "q16", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "is the operating language(s)", "replace": "is not the operating language(s)"}
+{"question": "q16", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "must use", "replace": "must not use"}
+{"question": "q16", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must use", "replace": "may use"}
+{"question": "n01", "generator": "AB", "type": "ADD", "subtype": "", "text": "The notification must also be sent to the Agency"}
+{"question": "n01", "generator": "A", "type": "NEG", "subtype": "", "sentence": 2, "find": "A shorter period is allowed if", "replace": "A shorter period is not allowed even if"}
+{"question": "n01", "generator": "B", "type": "NEG", "subtype": "", "sentence": 2, "find": "A shorter notification period is permitted if", "replace": "A shorter notification period is not permitted even if"}
+{"question": "n01", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "agreed between the IM and the RUs who run or intend to run services on these lines at the time of establishing the agreement", "replace": "agreed by the IM"}
+{"question": "n01", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 2, "find": "agreed between the Infrastructure Manager and the railway undertakings that run or intend to run services on those lines", "replace": "agreed by the Infrastructure Manager"}
+{"question": "n02", "generator": "AB", "type": "ADD", "subtype": "", "text": "It also applies to 1 000 mm metre-gauge networks"}
+{"question": "n02", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 2, "find": "with 1 520 mm track gauges", "replace": "with 1 435 mm track gauges"}
+{"question": "n02", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 2, "find": "with 1 520 mm track gauge", "replace": "with 1 435 mm track gauge"}
+{"question": "n02", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "The CCS TSI applies to", "replace": "The CCS TSI does not apply to"}
+{"question": "n02", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "The CCS TSI applies to", "replace": "The CCS TSI does not apply to"}
+{"question": "n02", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": " that are connected to the network of third countries", "replace": ""}
+{"question": "n02", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 2, "find": " that are connected to the network of third countries", "replace": ""}
+{"question": "n03", "generator": "AB", "type": "ADD", "subtype": "", "text": "Shorter notice is allowed for requirements that only concern automatic train operation"}
+{"question": "n03", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "at least 5 years", "replace": "at least 20 years"}
+{"question": "n03", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "at least 5 years", "replace": "at least 20 years"}
+{"question": "n03", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "at least 5 years", "replace": "at most 5 years"}
+{"question": "n03", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "at least 5 years", "replace": "at most 5 years"}
+{"question": "n03", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be provided", "replace": "should be provided"}
+{"question": "n03", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be notified", "replace": "should be notified"}
+{"question": "n04", "generator": "AB", "type": "ADD", "subtype": "", "text": "It must then notify the Commission of this decision"}
+{"question": "n04", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "in the next 20 years", "replace": "in the next 10 years"}
+{"question": "n04", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "in the next 20 years", "replace": "in the next 10 years"}
+{"question": "n04", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "if it does not foresee", "replace": "if it foresees"}
+{"question": "n04", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "if it does not foresee", "replace": "if it foresees"}
+{"question": "n04", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "may leave out", "replace": "must leave out"}
+{"question": "n04", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "may omit", "replace": "must omit"}
+{"question": "n05", "generator": "AB", "type": "ADD", "subtype": "", "text": "The table must be updated every year"}
+{"question": "n05", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "must provide complete information", "replace": "need not provide complete information"}
+{"question": "n05", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "must cover", "replace": "need not cover"}
+{"question": "n05", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must provide", "replace": "should provide"}
+{"question": "n05", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must cover", "replace": "should cover"}
+{"question": "n06", "generator": "AB", "type": "ADD", "subtype": "", "text": "On lines below 250 km/h the nominal height may be as low as 4 800 mm"}
+{"question": "n06", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "maximum design contact wire height is 5 300 mm", "replace": "maximum design contact wire height is 5 000 mm"}
+{"question": "n06", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "the maximum design height 5 300 mm", "replace": "the maximum design height 5 000 mm"}
+{"question": "n06", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "the minimum design contact wire height is 5 080 mm", "replace": "the maximum design contact wire height is 5 080 mm"}
+{"question": "n06", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "the minimum design height 5 080 mm", "replace": "the maximum design height 5 080 mm"}
+{"question": "n06", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "For lines with speeds of $v \\ge 250$ [km/h], the nominal", "replace": "For all lines, the nominal"}
+{"question": "n06", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "For lines with speeds v ≥ 250 km/h the nominal", "replace": "For all lines the nominal"}
+{"question": "n07", "generator": "AB", "type": "ADD", "subtype": "", "text": "On curves with a radius below 1 000 m the limit is reduced by 50 mm"}
+{"question": "n07", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "it is 550 mm", "replace": "it is 500 mm"}
+{"question": "n07", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "550 mm for a 1 950 mm", "replace": "500 mm for a 1 950 mm"}
+{"question": "n07", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "the maximum lateral deviation", "replace": "the minimum lateral deviation"}
+{"question": "n07", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "The maximum lateral deviation", "replace": "The minimum lateral deviation"}
+{"question": "n07", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "shall be adjusted", "replace": "may be adjusted"}
+{"question": "n08", "generator": "AB", "type": "ADD", "subtype": "", "text": "Above 320 km/h the mean contact force must be measured on every new line"}
+{"question": "n08", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "up to 360 km/h", "replace": "up to 400 km/h"}
+{"question": "n08", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "up to 360 km/h", "replace": "up to 400 km/h"}
+{"question": "n08", "generator": "A", "type": "NEG", "subtype": "", "sentence": 2, "find": "For speeds above 360 km/h", "replace": "For speeds below 360 km/h"}
+{"question": "n08", "generator": "B", "type": "NEG", "subtype": "", "sentence": 2, "find": "For speeds above 360 km/h", "replace": "For speeds below 360 km/h"}
+{"question": "n08", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "shall apply", "replace": "may apply"}
+{"question": "n08", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 2, "find": "shall apply", "replace": "may apply"}
+{"question": "n09", "generator": "AB", "type": "ADD", "subtype": "", "text": "The neutral section must be located on level track"}
+{"question": "n09", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "at least 402 m", "replace": "at least 420 m"}
+{"question": "n09", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "at least 402 m", "replace": "at least 420 m"}
+{"question": "n09", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "at least 402 m", "replace": "at most 402 m"}
+{"question": "n09", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "at least 402 m", "replace": "at most 402 m"}
+{"question": "n09", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "where all the pantographs of the longest TSI compliant trains are within the neutral section, the", "replace": "the"}
+{"question": "n09", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": " when all pantographs of the longest train are inside it", "replace": ""}
+{"question": "n10", "generator": "AB", "type": "ADD", "subtype": "", "text": "Insulators may also enter it on lines with speeds below 160 km/h"}
+{"question": "n10", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "except for the contact wire and steady arm", "replace": "including the contact wire and steady arm"}
+{"question": "n10", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "Only the contact wire and the steady arm may enter", "replace": "The contact wire and the steady arm may not enter"}
+{"question": "n10", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall enter", "replace": "should enter"}
+{"question": "n10", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "may enter", "replace": "must enter"}
+{"question": "n11", "generator": "AB", "type": "ADD", "subtype": "", "text": "Benches count as large obstacles regardless of their length"}
+{"question": "n11", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "is 80 cm", "replace": "is 160 cm"}
+{"question": "n11", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "is 80 cm", "replace": "is 160 cm"}
+{"question": "n11", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "the minimum distance", "replace": "the maximum distance"}
+{"question": "n11", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "the minimum distance", "replace": "the maximum distance"}
+{"question": "n11", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "with a length from 1 m to less than 10 m", "replace": "with a length of 1 m or more"}
+{"question": "n11", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "(length 1 m to < 10 m)", "replace": "(length 1 m or more)"}
+{"question": "n12", "generator": "AB", "type": "ADD", "subtype": "", "text": "Each step must be lit by a light at floor level"}
+{"question": "n12", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "minimum depth of 280 mm", "replace": "minimum depth of 300 mm"}
+{"question": "n12", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "minimum depth of 280 mm", "replace": "minimum depth of 300 mm"}
+{"question": "n12", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "a maximum height of 200 mm", "replace": "a minimum height of 200 mm"}
+{"question": "n12", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "a maximum height of 200 mm", "replace": "a minimum height of 200 mm"}
+{"question": "n12", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall have", "replace": "should have"}
+{"question": "n12", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall have", "replace": "should have"}
+{"question": "n13", "generator": "AB", "type": "ADD", "subtype": "", "text": "It must be fitted with a safety strap"}
+{"question": "n13", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 2, "find": "80 kg", "replace": "100 kg"}
+{"question": "n13", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "80 kg", "replace": "100 kg"}
+{"question": "n13", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "a minimum of 500 mm wide", "replace": "a maximum of 500 mm wide"}
+{"question": "n13", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "at least 500 mm wide", "replace": "at most 500 mm wide"}
+{"question": "n13", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "must be able", "replace": "should be able"}
+{"question": "n13", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "it must be able", "replace": "it should be able"}
+{"question": "n14", "generator": "AB", "type": "ADD", "subtype": "", "text": "Handrails must be made of a non-conductive material"}
+{"question": "n14", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 2, "find": "of 45 mm", "replace": "of 50 mm"}
+{"question": "n14", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "of 45 mm", "replace": "of 50 mm"}
+{"question": "n14", "generator": "A", "type": "NEG", "subtype": "", "sentence": 2, "find": "a minimum clear distance", "replace": "a maximum clear distance"}
+{"question": "n14", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "a minimum clear distance", "replace": "a maximum clear distance"}
+{"question": "n14", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be round", "replace": "should be round"}
+{"question": "n14", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "shall be round", "replace": "should be round"}
+{"question": "n15", "generator": "AB", "type": "ADD", "subtype": "", "text": "The measurement must be repeated with the cab windows open"}
+{"question": "n15", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 2, "find": "78 dB", "replace": "75 dB"}
+{"question": "n15", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "78 dB", "replace": "75 dB"}
+{"question": "n15", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "The noise limit for the driver's cab", "replace": "The minimum noise level for the driver's cab"}
+{"question": "n15", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "the limit is 95 dB", "replace": "the minimum level is 95 dB"}
+{"question": "n15", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 2, "find": "At maximum speed vmax if vmax < 250 km/h, the", "replace": "At maximum speed, the"}
+{"question": "n15", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "at maximum speed when vmax < 250 km/h the", "replace": "at maximum speed the"}
+{"question": "n16", "generator": "AB", "type": "ADD", "subtype": "", "text": "The test must be carried out at night"}
+{"question": "n16", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "up to 30 km/h", "replace": "up to 40 km/h"}
+{"question": "n16", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "up to 30 km/h", "replace": "up to 40 km/h"}
+{"question": "n16", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "the train shall accelerate", "replace": "the train may accelerate"}
+{"question": "n16", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "The train must accelerate", "replace": "The train may accelerate"}
+{"question": "n18", "generator": "AB", "type": "ADD", "subtype": "", "text": "The examination results must be kept for at least ten years"}
+{"question": "n18", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "every 3 years for staff", "replace": "every year for staff"}
+{"question": "n18", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "every 3 years if", "replace": "every year if"}
+{"question": "n18", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be performed", "replace": "should be performed"}
+{"question": "n18", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must undergo", "replace": "should undergo"}
+{"question": "n19", "generator": "AB", "type": "ADD", "subtype": "", "text": "Sand must not be applied in tunnels longer than 1 km"}
+{"question": "n19", "generator": "A", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "less than 20 km/h", "replace": "less than 25 km/h"}
+{"question": "n19", "generator": "B", "type": "NUM", "subtype": "out-of-context", "sentence": 1, "find": "less than 20 km/h", "replace": "less than 25 km/h"}
+{"question": "n19", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "shall avoid using it", "replace": "shall use it"}
+{"question": "n19", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "shall avoid using", "replace": "shall use"}
+{"question": "n19", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "during braking at speeds less than 20 km/h", "replace": "during braking"}
+{"question": "n19", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "during braking at speeds less than 20 km/h", "replace": "during braking"}
+{"question": "n20", "generator": "AB", "type": "ADD", "subtype": "", "text": "This information must be updated every time the timetable changes"}
+{"question": "n20", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "may provide", "replace": "may not provide"}
+{"question": "n20", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "may provide", "replace": "may not provide"}
+{"question": "n20", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "may provide", "replace": "must provide"}
+{"question": "n20", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "may provide", "replace": "must provide"}
+{"question": "n21", "generator": "AB", "type": "ADD", "subtype": "", "text": "The consultation must be completed within 60 days"}
+{"question": "n21", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must start", "replace": "should start"}
+{"question": "n21", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must begin", "replace": "should begin"}
+{"question": "n22", "generator": "AB", "type": "ADD", "subtype": "", "text": "Lines in both categories must be fully equipped with ETCS"}
+{"question": "n22", "generator": "A", "type": "NUM", "subtype": "in-context", "sentence": 2, "find": "of the order of 200 km/h", "replace": "of the order of 250 km/h"}
+{"question": "n22", "generator": "B", "type": "NUM", "subtype": "in-context", "sentence": 1, "find": "of the order of 200 km/h", "replace": "of the order of 250 km/h"}
+{"question": "n22", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "equal to or greater than", "replace": "equal to or less than"}
+{"question": "n22", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "equal to or greater than", "replace": "equal to or less than"}
+{"question": "n22", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "generally equal", "replace": "equal"}
+{"question": "n22", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "generally equal", "replace": "equal"}
+{"question": "n23", "generator": "AB", "type": "ADD", "subtype": "", "text": "The exercise must then be repeated every two years"}
+{"question": "n23", "generator": "A", "type": "NEG", "subtype": "", "sentence": 1, "find": "Prior to the opening", "replace": "After the opening"}
+{"question": "n23", "generator": "B", "type": "NEG", "subtype": "", "sentence": 1, "find": "Before opening", "replace": "After opening"}
+{"question": "n23", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must take place", "replace": "should take place"}
+{"question": "n23", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "must be carried out", "replace": "should be carried out"}
+{"question": "n24", "generator": "AB", "type": "ADD", "subtype": "", "text": "Each section must be no longer than 5 km"}
+{"question": "n24", "generator": "A", "type": "QUAL", "subtype": "", "sentence": 1, "find": "either locally or remotely", "replace": "remotely"}
+{"question": "n24", "generator": "B", "type": "QUAL", "subtype": "", "sentence": 1, "find": "either locally or remotely", "replace": "remotely"}

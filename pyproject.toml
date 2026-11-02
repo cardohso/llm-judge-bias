@@ -37,3 +37,5 @@ select = ["E", "F", "I", "B", "UP", "SIM"]
 [tool.ruff.lint.per-file-ignores]
 # the generation prompt is quoted verbatim from the rail repo; wrapping it would change it
 "generation/prompts.py" = ["E501"]
+# hand-written edits quote answer sentences verbatim
+"perturbations/handwritten_source.py" = ["E501"]
