@@ -1,5 +1,7 @@
 # Review: 24 new questions
 
+**Outcome (2026-11-02):** the author, João Pedro Cardoso, accepted all 24 as drafted, with no fixes and no drops. The boxes below were ticked by Claude on the author's instruction in chat.
+
 Drafted by Claude Opus 5.5 on 2026-11-02 from `rail-regulation-rag` at commit `96ccee4`. Each question below shows its gold passage exactly as the generators will see it.
 
 **For each one, tick a box and add a note if needed:**
@@ -25,7 +27,7 @@ CCS TSI, 7.4.3. National requirements
 7.4.3.2. Member States may decide to exclude special vehicles as defined in point 2.2.2 (C) of the LOC&PAS TSI, including road-rail vehicles, from the obligation to equip them with ETCS, RMR or ATO on a specific area of use if the operation of these vehicles does not prevent the Class B decommissioning. This shall be registered in RINF ( 37 ).
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -43,7 +45,7 @@ The geographical scope of this TSI is the network of the whole rail system, as d
 The TSI shall apply to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges. However, it shall not apply to short border crossing lines with 1 520 mm track gauges that are connected to the network of third countries.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -66,7 +68,7 @@ Geographical scope | New CCS on-board requirements | Date of application
 [Include here the geographical scope in which the specific requirements will be applicable. For example: Complete network or specific lines. | [Include here the legal reference to the new CCS on-board requirements or specify here the new CCS onboard requirements | [Include here date of application of the new CCS on-board requirement. At the earliest, a 5-year period is required.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -85,7 +87,7 @@ This section is not mandatory for those Member States which do not foresee GSM-R
 The template to be filled in to provide the information in this section is given below]
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -106,7 +108,7 @@ For completeness at least the following information shall be included:
 The template to be filled in to provide the information in this section is given below]
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -126,7 +128,7 @@ ENE TSI, 4.2.9.1. Contact wire height
 (4) For the track gauge system 1 520 and 1 524 mm the values for contact wire height are as follows: (a) Nominal contact wire height: between 6 000 mm and 6 300 mm; (b) Minimum design contact wire height: 5 550 mm; (c) Maximum design contact wire height: 6 800 mm.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -145,7 +147,7 @@ ENE TSI, 4.2.9.2. Maximum lateral deviation
 (3) Track gauge system 1 520 mm: For Member States applying the pantograph profile in accordance with point 4.2.8.2.9.2.3 of the LOC&PAS TSI the maximum lateral deviation of the contact wire in relation to the pantograph centre under action of a crosswind shall be 500 mm.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -165,7 +167,7 @@ ENE TSI, 4.2.11. Mean contact force
 (4) The curves apply to speed up to 360 km/h. For speeds above 360 km/h procedures set out in point 6.1.3 shall apply.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -184,7 +186,7 @@ Two types of design of phase separation sections may be adopted:
 (b) a shorter phase separation with three insulated overlaps as shown in the specification referenced in Appendix E, Index [2]. The overall length of the neutral section is less than 142 m including clearances and tolerances.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -205,7 +207,7 @@ For Member States applying the pantograph profile in accordance with LOC&PAS TSI
 (3) No part of the energy sub-system shall enter the pantograph gauge as stated in points (1) and (2), except for the contact wire and steady arm.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -224,7 +226,7 @@ PRM TSI, 4.2.1.12. Platform width and edge of platform
 (7) The visual marking shall be a contrasting, slip resistant, warning line with a minimum width of 10 cm.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -245,7 +247,7 @@ PRM TSI, 4.2.2.8. Height changes
 (5) Handrails shall be compliant with point 4.2.2.9
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -264,7 +266,7 @@ PRM TSI, 5.3.2.5. Baby nappy changing table
 (3) It shall be possible to put it into the stowed position with only one hand, using a force not exceeding 25 N.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -287,7 +289,7 @@ PRM TSI, 4.2.2.9. Handrails
 (7) Where the clearway of the gangway is wider than or equal to 1 000 mm handrails or handholds shall be provided in the gangway.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -312,7 +314,7 @@ At maximum speed vmax if 250 km/h ≤ vmax < 350 km/h | 80
 The demonstration of conformity is described in point 6.2.2.4.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -331,7 +333,7 @@ In addition the noise shall be measured at the same distance from the centre of 
 For special vehicles the starting procedure shall be performed without additional trailer loads.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -348,7 +350,7 @@ NOI TSI, Article 5b
 A ‘quieter route’ means a part of the railway infrastructure with a minimum length of 20 km on which the average number of daily operated freight trains during the night-time as defined in national legislation transposing Directive 2002/49/EC of the European Parliament and of the Council ( 5 ) was higher than 12. The freight traffic in the years 2015, 2016 and 2017 shall be the basis for the calculation of that average number. In case the freight traffic due to exceptional circumstances diverges in a given year from that average number by more than 25 %, the Member State concerned can calculate the average number on the basis of the remaining two years.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -369,7 +371,7 @@ At least one systematic medical examination shall be performed:
 Increased frequency of examination shall be set by the medical doctor if the state of health of the member of the staff requires so.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -393,7 +395,7 @@ The exceptions to this are:
 — when required to test the sanding equipment on the traction unit.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -410,7 +412,7 @@ OPE TSI, 4.2.2.6.2. Braking performance and maximum speed allowed
 (2) The infrastructure manager may provide the following information: (i) For trains able to run at a maximum speed higher than 200 km/h, deceleration profile and equivalent response time on level track; (ii) For trainsets or for fixed train compositions, unable to run at a maximum speed higher than 200 km/h, deceleration (as above in (i)) or brake weight percentage; (iii) For other trains (variable compositions of trains unable to run at a maximum speed higher than 200 km/h): brake weight percentage. If the infrastructure manager provides the above mentioned information, it shall be made available to all railway undertakings who intend to operate trains on its network in a non-discriminatory way. The braking tables already in use and accepted for the existing non TSI conform lines at the date of entry into force of the present Regulation shall also be made available.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -428,7 +430,7 @@ Interoperability Directive, Article 11 — Non-compliance of interoperability co
 2. The Agency, on a mandate from the Commission, shall start the consultation process with the parties concerned without delay and in any case within 20 days of the date of receipt of that mandate. Where, following that consultation, the Agency establishes that the measure is unjustified, it shall forthwith inform the Commission, the Member State that has taken the initiative as well as other Member States, and the manufacturer or his authorised representative. Where the Agency establishes that the measure is justified, it shall forthwith inform the Member States.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -455,7 +457,7 @@ For the purposes of this Directive, the Union's network shall include the follow
 This network includes traffic management, tracking and navigation systems, technical installations for data processing and telecommunications intended for long-distance passenger services and freight services on the network in order to guarantee the safe and harmonious operation of the network and efficient traffic management.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -474,7 +476,7 @@ These rules apply to tunnels of > 1 km.
 (b) The emergency plan shall define how all organisations involved can be familiarised with the infrastructure and how often visits to the tunnel and table top or other exercises have to take place.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
 
@@ -493,6 +495,6 @@ This specification applies to all tunnels of more than 1 km length.
 (b) In such case, it shall be possible to switch off each section of the contact line, either locally or remotely.
 ```
 
-- [ ] Accept  - [ ] Fix (see note)  - [ ] Drop
+- [x] Accept  - [ ] Fix (see note)  - [ ] Drop
 
 **Note:** 
