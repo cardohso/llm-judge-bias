@@ -7,6 +7,7 @@ license = "MIT"
 requires-python = ">=3.11"
 dependencies = [
     "goldpass @ git+https://github.com/cardohso/goldpass.git@v0.2.0",
+    "matplotlib>=3.9",
     "numpy>=2.0",
 ]
 
@@ -39,3 +40,5 @@ select = ["E", "F", "I", "B", "UP", "SIM"]
 "generation/prompts.py" = ["E501"]
 # hand-written edits quote answer sentences verbatim
 "perturbations/handwritten_source.py" = ["E501"]
+# report tables are long f-strings; wrapping them hurts more than it helps
+"analysis/run_analysis.py" = ["E501"]
