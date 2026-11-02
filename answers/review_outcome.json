@@ -1,0 +1,451 @@
+{
+ "date": "2026-11-02",
+ "reviewer": "João Pedro Cardoso",
+ "rule": "a question is dropped for both generators if either answer is rejected",
+ "dropped_questions": [
+  "n17",
+  "q04",
+  "q13"
+ ],
+ "retained_questions": [
+  "q01",
+  "q02",
+  "q03",
+  "q05",
+  "q06",
+  "q07",
+  "q08",
+  "q09",
+  "q10",
+  "q11",
+  "q12",
+  "q14",
+  "q15",
+  "q16",
+  "n01",
+  "n02",
+  "n03",
+  "n04",
+  "n05",
+  "n06",
+  "n07",
+  "n08",
+  "n09",
+  "n10",
+  "n11",
+  "n12",
+  "n13",
+  "n14",
+  "n15",
+  "n16",
+  "n18",
+  "n19",
+  "n20",
+  "n21",
+  "n22",
+  "n23",
+  "n24"
+ ],
+ "answers": {
+  "q01:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q01:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q02:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q02:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q03:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q03:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q04:B": {
+   "slot": "X",
+   "decision": "reject",
+   "reason": "declared insufficient and gave no answer"
+  },
+  "q04:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q05:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q05:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q06:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q06:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q07:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q07:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q08:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q08:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q09:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q09:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q10:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q10:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q11:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q11:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q12:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q12:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q13:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q13:B": {
+   "slot": "Y",
+   "decision": "reject",
+   "reason": "cites passages [3], [7] and [8], but the context has only 3 passages (rule 2)"
+  },
+  "q14:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q14:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q15:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q15:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q16:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "q16:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n01:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n01:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n02:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n02:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n03:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n03:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n04:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n04:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n05:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n05:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n06:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n06:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n07:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n07:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n08:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n08:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n09:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n09:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n10:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n10:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n11:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n11:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n12:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n12:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n13:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n13:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n14:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n14:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n15:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n15:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n16:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n16:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n17:B": {
+   "slot": "X",
+   "decision": "reject",
+   "reason": "no citation marker on a factual sentence (rule 2)"
+  },
+  "n17:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n18:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n18:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n19:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n19:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n20:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n20:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n21:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n21:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n22:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n22:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n23:A": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n23:B": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n24:B": {
+   "slot": "X",
+   "decision": "accept",
+   "reason": ""
+  },
+  "n24:A": {
+   "slot": "Y",
+   "decision": "accept",
+   "reason": ""
+  }
+ }
+}

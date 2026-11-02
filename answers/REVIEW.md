@@ -1,5 +1,7 @@
 # Review: base answers (blinded)
 
+**Outcome (2026-11-02):** the author reviewed the answers blind to the generator and accepted all except three (q04 B, n17 B, q13 B). Those three were flagged by Claude before the review, so blinding did not hold for them. The boxes were ticked by Claude on the author's instruction in chat; the X/Y key was applied only after the decision.
+
 You see two answers per question, X and Y, in random order. You are not told which
 model wrote which. Judge each answer **against the passages shown**, as rendered below.
 
@@ -65,7 +67,7 @@ The demonstration of conformity is described in point 6.2.2.4.
 
 - **S1:** The stationary noise limit LpAeq,T for an EMU is 65 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -73,7 +75,7 @@ The demonstration of conformity is described in point 6.2.2.4.
 
 - **S1:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -120,7 +122,7 @@ NOI TSI, (b) Specific case Sweden
 
 - **S1:** The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 83 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -128,7 +130,7 @@ NOI TSI, (b) Specific case Sweden
 
 - **S1:** The pass-by noise limit for wagons at 80 km/h is 83 dB(A) [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -176,7 +178,7 @@ PRM TSI, 4.2.1.2.2. Vertical circulation
 
 - **S1:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -185,7 +187,7 @@ PRM TSI, 4.2.1.2.2. Vertical circulation
 - **S1:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 - **S2:** The minimum vertical clearance above the walkway must be 2.25 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -226,15 +228,15 @@ The electricity supply system in the tunnel shall be suitable for the emergency 
 _(no answer given)_
 
 
-- [ ] Accept  - [ ] Reject
+- [ ] Accept  - [x] Reject
 
-**Note:** 
+**Note:** declared insufficient and gave no answer
 
 ### q04 · answer Y
 
 - **S1:** An alternative electricity supply must be available for an appropriate period of time after the main supply fails, with the required time being consistent with the evacuation scenarios and reported in the Emergency Plan [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -280,7 +282,7 @@ SRT TSI, 4.2.3. Subsystem rolling stock
 - **S2:** Category A passenger rolling stock is for operation on lines where the distance between evacuation and rescue points or the length of tunnels does not exceed 5 km, whereas Category B passenger rolling stock is for operation in all tunnels on lines within the scope of the TSI, irrespective of the length of the tunnels [4].
 - **S3:** Additionally, operation of Category A rolling stock is permitted on lines where the distance between evacuation and rescue points or the length of tunnels exceeds 5 km only when there are no passengers on board [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -288,7 +290,7 @@ SRT TSI, 4.2.3. Subsystem rolling stock
 
 - **S1:** The maximum distance between evacuation and rescue points in a tunnel is 5 km for Category A passenger rolling stock and 20 km for Category B passenger rolling stock, giving a difference of 15 km between the two categories [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -329,7 +331,7 @@ The number of wheelchair spaces is limited to two for any unit intended to be us
 
 - **S1:** A passenger unit that is 250 m long must have 3 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -337,7 +339,7 @@ The number of wheelchair spaces is limited to two for any unit intended to be us
 
 - **S1:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -388,7 +390,7 @@ PRM TSI, 4.2.2.3.3. Interior doors
 - **S1:** The minimum clear usable width of exterior passenger doors is 800 mm when open[1].
 - **S2:** Wheelchair access doors offering level access must have a minimum clear usable width of 1 000 mm when open[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -397,7 +399,7 @@ PRM TSI, 4.2.2.3.3. Interior doors
 - **S1:** All exterior passenger doorways shall have a minimum clear useable width of 800 mm when open [1].
 - **S2:** On trains with a design speed lower than 250 km/h, wheelchair access doors offering a level access shall have a minimum clear useable width of 1 000 mm when open [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -450,7 +452,7 @@ For new lines with speed greater than 250 km/h, implementation rules are specifi
 - **S1:** The Energy TSI allows four traction power supply systems: AC 25 kV, 50 Hz; AC 15 kV, 16,7 Hz; DC 3 kV; and DC 1,5 kV [4].
 - **S2:** New lines with a speed greater than 250 km/h must be supplied with one of the AC systems listed in point 4.2.3 (a) and (b), which are AC 25 kV, 50 Hz and AC 15 kV, 16,7 Hz [2][4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -459,7 +461,7 @@ For new lines with speed greater than 250 km/h, implementation rules are specifi
 - **S1:** The Energy TSI permits four traction power supply systems: AC 25 kV 50 Hz, AC 15 kV 16,7 Hz, DC 3 kV and DC 1,5 kV [4].
 - **S2:** For new lines with speeds greater than 250 km/h, only the two AC systems (AC 25 kV 50 Hz and AC 15 kV 16,7 Hz) may be used [2][4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -509,7 +511,7 @@ CCS TSI, — Current status of deployment for Class A radio system
 - **S1:** The Class A train protection system is ETCS (European Train Control System), and the Class A radio system is RMR (Railway Mobile Radio system) [2].
 - **S2:** RMR comprises two radio class A systems, which are GSM-R and FRMCS (Future Railway Mobile Communication System) [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -517,7 +519,7 @@ CCS TSI, — Current status of deployment for Class A radio system
 
 - **S1:** The Class A train protection system is ETCS (European Train Control System) and the Class A radio system is RMR (Railway Mobile Radio), which includes GSM-R and FRMCS (Future Railway Mobile Communication System)[2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -569,7 +571,7 @@ For the implementation of point 4.2.2.1.3.2 and the implementation of common ope
 - **S1:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above the buffer on the transversal axis [2].
 - **S2:** The rear end signal of a freight train shall consist of 2 reflective plates at the same height above the buffer on the transversal axis, although a freight train equipped with 2 steady red lights also complies with the requirement [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -578,7 +580,7 @@ For the implementation of point 4.2.2.1.3.2 and the implementation of common ope
 - **S1:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above buffer on the transversal axis [2].
 - **S2:** The rear end signal of a freight train shall consist of 2 reflective plates at the same height above buffer on the transversal axis, though any train equipped with 2 steady red lights shall also be considered to comply with this obligation [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -620,7 +622,7 @@ The plates shall be on the same height above buffer on the transversal axis
 
 - **S1:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025, and across the whole European Union rail network from 1 January 2026[1][1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -628,7 +630,7 @@ The plates shall be on the same height above buffer on the transversal axis
 
 - **S1:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -675,7 +677,7 @@ As part of the assessments pursuant to points (a) and (b) and in the case of jus
 - **S1:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2].
 - **S2:** Additionally, within one month of receipt of the applicant's request, the Agency shall inform the applicant that the file is complete or ask for relevant supplementary information, setting a reasonable deadline for the provision thereof [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -683,7 +685,7 @@ As part of the assessments pursuant to points (a) and (b) and in the case of jus
 
 - **S1:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -723,7 +725,7 @@ Interoperability Directive, Article 7 — Non-application of TSIs
 - **S1:** The Commission must give its decision within four months of submission of the request supported by the complete file [3].
 - **S2:** If the Commission does not decide in time, the request is deemed to have been accepted [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -731,9 +733,9 @@ Interoperability Directive, Article 7 — Non-application of TSIs
 
 - **S1:** The Commission must decide within four months of the Member State’s submission of the complete file; if it does not decide within that period, the request is deemed to have been accepted [3][7][8].
 
-- [ ] Accept  - [ ] Reject
+- [ ] Accept  - [x] Reject
 
-**Note:** 
+**Note:** cites passages [3], [7] and [8], but the context has only 3 passages (rule 2)
 
 ## q14
 
@@ -771,7 +773,7 @@ This specification applies to all tunnels of more than 0,5 km in length.
 
 - **S1:** Doors giving access from the escape walkway to the safe area must have a minimum clear opening of 1,4 m wide and 2,0 m high [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -779,7 +781,7 @@ This specification applies to all tunnels of more than 0,5 km in length.
 
 - **S1:** The doors must have a minimum clear opening of 1,4 m wide and 2,0 m high.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -817,7 +819,7 @@ Interoperability Directive, Article 54 — Transitional regime for using vehicle
 
 - **S1:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -826,7 +828,7 @@ Interoperability Directive, Article 54 — Transitional regime for using vehicle
 - **S1:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1].
 - **S2:** It is also required if the overall safety level of the vehicle concerned may be adversely affected by the envisaged works, or if it is required by the relevant TSIs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -866,7 +868,7 @@ SRT TSI, 4.4.5. Provision of on-train safety and emergency information to passen
 
 - **S1:** The train crew must use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -874,7 +876,7 @@ SRT TSI, 4.4.5. Provision of on-train safety and emergency information to passen
 
 - **S1:** The language used for safety-related communication between the train crew and the staff authorising train movements is the operating language(s) used by the infrastructure manager on the route concerned [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -911,7 +913,7 @@ It is not needed to fulfil points 7.4.2.4.1 and 7.4.2.4.2 if correcting the exis
 - **S1:** The Member State must notify the national rule at least 5 years before the de-commissioning of the ETCS-equipped line[1].
 - **S2:** A shorter notification period is permitted if it is agreed between the Infrastructure Manager and the railway undertakings that run or intend to run services on those lines[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -920,7 +922,7 @@ It is not needed to fulfil points 7.4.2.4.1 and 7.4.2.4.2 if correcting the exis
 - **S1:** A Member State must notify the national rule a minimum 5 years before the decommissioning [1].
 - **S2:** A shorter period is allowed if this is agreed between the IM and the RUs who run or intend to run services on these lines at the time of establishing the agreement [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -961,7 +963,7 @@ CCS TSI, Article 2 — Scope
 - **S1:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges[1].
 - **S2:** It does not apply to short border-crossing lines with 1 520 mm track gauge that are connected to the network of third countries[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -970,7 +972,7 @@ CCS TSI, Article 2 — Scope
 - **S1:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [1].
 - **S2:** It excludes the infrastructure cases referred to in Article 1(3) and (4) of Directive (EU) 2016/797, as well as short border crossing lines with 1 520 mm track gauges that are connected to the network of third countries [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1016,7 +1018,7 @@ Member States shall decide on the migration strategy describing the expected ove
 
 - **S1:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1024,7 +1026,7 @@ Member States shall decide on the migration strategy describing the expected ove
 
 - **S1:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1063,7 +1065,7 @@ Current status | Realization | Date when GSM-R is placed in service | Dates when
 
 - **S1:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1071,7 +1073,7 @@ Current status | Realization | Date when GSM-R is placed in service | Dates when
 
 - **S1:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1117,7 +1119,7 @@ The template to be filled in to provide the information in this section is given
 
 - **S1:** The train detection planning table must cover the next 20 years[3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1125,7 +1127,7 @@ The template to be filled in to provide the information in this section is given
 
 - **S1:** The train detection planning table must provide complete information of changes in the following 20 years [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1161,7 +1163,7 @@ For, upgrade or renewal of the existing energy subsystem it is allowed for the o
 
 - **S1:** For lines with speeds of $v \ge 250$ [km/h], the nominal contact wire height is between 5 080 and 5 300 mm, the minimum design contact wire height is 5 080 mm, and the maximum design contact wire height is 5 300 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1169,7 +1171,7 @@ For, upgrade or renewal of the existing energy subsystem it is allowed for the o
 
 - **S1:** For lines with speeds v ≥ 250 km/h the nominal contact wire height shall be between 5 080 mm and 5 300 mm, the minimum design height 5 080 mm and the maximum design height 5 300 mm (the maximum shall not exceed 6 500 mm) [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1214,7 +1216,7 @@ Plain and main station tracks on which train hoteling is not foreseen | Other st
 - **S1:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [1].
 - **S2:** These values shall be adjusted taking into account the movement of the pantograph and track tolerances according to Appendix D.1.4 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1222,7 +1224,7 @@ Plain and main station tracks on which train hoteling is not foreseen | Other st
 
 - **S1:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1259,7 +1261,7 @@ ENE TSI, 4.2.11. Mean contact force
 - **S1:** The mean contact force curves apply to speeds up to 360 km/h.
 - **S2:** For speeds above 360 km/h, the procedures set out in point 6.1.3 shall apply [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1268,7 +1270,7 @@ ENE TSI, 4.2.11. Mean contact force
 - **S1:** The curves apply to speed up to 360 km/h [3].
 - **S2:** For speeds above 360 km/h procedures set out in point 6.1.3 shall apply [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1319,7 +1321,7 @@ ENE TSI, 4.2.15.1. General
 
 - **S1:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1327,7 +1329,7 @@ ENE TSI, 4.2.15.1. General
 
 - **S1:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1380,7 +1382,7 @@ Appendix G — | Glossary
 
 - **S1:** Only the contact wire and the steady arm may enter the pantograph gauge [1][3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1388,7 +1390,7 @@ Appendix G — | Glossary
 
 - **S1:** No part of the energy sub-system shall enter the pantograph gauge, except for the contact wire and steady arm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1426,7 +1428,7 @@ PRM TSI, 4.4.3. Provision of boarding aids and provision of assistance
 
 - **S1:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1435,7 +1437,7 @@ PRM TSI, 4.4.3. Provision of boarding aids and provision of assistance
 - **S1:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 80 cm [1].
 - **S2:** For large obstacles with a length from 1 m to less than 10 m, the minimum distance to the danger area is 120 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1474,7 +1476,7 @@ PRM TSI, 4.2.2.11.2. Access/egress steps
 
 - **S1:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1483,7 +1485,7 @@ PRM TSI, 4.2.2.11.2. Access/egress steps
 - **S1:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 - **S2:** For double deck trains, it is permitted to reduce this depth value to 270 mm for the stairs accessing the upper deck and the lower deck [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1520,7 +1522,7 @@ PRM TSI, 4.2.1.6. Toilets and baby nappy changing facilities
 - **S1:** The usable surface of a baby nappy changing table on a train must be a minimum of 500 mm wide and 700 mm long [1].
 - **S2:** Additionally, it must be able to take a minimum load of 80 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1528,7 +1530,7 @@ PRM TSI, 4.2.1.6. Toilets and baby nappy changing facilities
 
 - **S1:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1573,7 +1575,7 @@ This specification applies to all tunnels of more than 0,5 km in length.
 - **S1:** All handrails fitted to a vehicle must be round in section with an outside diameter of 30 mm to 40 mm [1].
 - **S2:** Additionally, they must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1581,7 +1583,7 @@ This specification applies to all tunnels of more than 0,5 km in length.
 
 - **S1:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1646,7 +1648,7 @@ The demonstration of conformity is described in point 6.2.2.2.
 
 - **S1:** At standstill with horns sounding the limit is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 78 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1655,7 +1657,7 @@ The demonstration of conformity is described in point 6.2.2.2.
 - **S1:** The noise limit for the driver's cab at standstill with horns sounding is 95 dB [1].
 - **S2:** At maximum speed vmax if vmax < 250 km/h, the noise limit is 78 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1704,7 +1706,7 @@ Furthermore, it is permitted to carry out tests at speeds equal to or higher tha
 - **S1:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 30 km/h and then maintain the speed [1].
 - **S2:** Additionally, for the averaged level method and the maximum level method, the train shall accelerate from standstill up to 40 km/h and then maintain the speed [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1712,7 +1714,7 @@ Furthermore, it is permitted to carry out tests at speeds equal to or higher tha
 
 - **S1:** The train must accelerate from standstill up to 30 km/h before maintaining the speed [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1757,9 +1759,9 @@ A ‘quieter route’ means a part of the railway infrastructure with a minimum 
 
 - **S1:** A ‘quieter route’ is a part of the railway infrastructure with a minimum length of 20 km where the average number of daily operated freight trains during night-time (as defined in national legislation transposing Directive 2002/49/EC) was higher than 12, based on freight traffic data from 2015-2017 (or two years if one year deviates by more than 25 %).
 
-- [ ] Accept  - [ ] Reject
+- [ ] Accept  - [x] Reject
 
-**Note:** 
+**Note:** no citation marker on a factual sentence (rule 2)
 
 ### n17 · answer Y
 
@@ -1767,7 +1769,7 @@ A ‘quieter route’ means a part of the railway infrastructure with a minimum 
 - **S2:** This average is based on freight traffic in the years 2015, 2016, and 2017, using the definition of night-time from national legislation transposing Directive 2002/49/EC [3].
 - **S3:** If freight traffic in a given year diverges by more than 25 % due to exceptional circumstances, the average may be calculated using the remaining two years [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1810,7 +1812,7 @@ The railway undertaking and the infrastructure manager shall put systems in plac
 - **S1:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [1].
 - **S2:** Additionally, an increased frequency must be set by the medical doctor if the staff member's state of health requires it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1818,7 +1820,7 @@ The railway undertaking and the infrastructure manager shall put systems in plac
 
 - **S1:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1864,7 +1866,7 @@ Specific case | Category | Notes
 - **S1:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1].
 - **S2:** However, sanding is still appropriate if there is a risk of SPAD (Signal Passed At Danger) or another serious incident and applying sand assists adhesion, when starting away, or when required to test the sanding equipment on the traction unit [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1873,7 +1875,7 @@ Specific case | Category | Notes
 - **S1:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1].
 - **S2:** Sanding is still appropriate if there is a risk of SPAD or another serious incident and sand would improve adhesion, when starting away, or when required to test the sanding equipment on the traction unit[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1906,7 +1908,7 @@ OPE TSI, 4.2.2.6.2. Braking performance and maximum speed allowed
 
 - **S1:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and the equivalent response time on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1914,7 +1916,7 @@ OPE TSI, 4.2.2.6.2. Braking performance and maximum speed allowed
 
 - **S1:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and equivalent response time on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1953,7 +1955,7 @@ Interoperability Directive, Article 50 — Exercise of delegation
 
 - **S1:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1961,7 +1963,7 @@ Interoperability Directive, Article 50 — Exercise of delegation
 
 - **S1:** The Agency must begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2008,7 +2010,7 @@ This list of vehicles shall include those which are specially designed to operat
 
 - **S1:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2017,7 +2019,7 @@ This list of vehicles shall include those which are specially designed to operat
 - **S1:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h [1].
 - **S2:** Specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2055,7 +2057,7 @@ This specification applies to all tunnels of more than 1 km in length.
 
 - **S1:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2063,7 +2065,7 @@ This specification applies to all tunnels of more than 1 km in length.
 
 - **S1:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2103,7 +2105,7 @@ These rules apply to all tunnels.
 
 - **S1:** It must be possible to switch off each section of the contact line, either locally or remotely [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2111,6 +2113,6 @@ These rules apply to all tunnels.
 
 - **S1:** In tunnels of more than 1 km length where the traction power supply is divided into sections, it must be possible to switch off each section of the contact line, either locally or remotely [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
