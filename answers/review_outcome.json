@@ -3,6 +3,9 @@
  "reviewer": "João Pedro Cardoso",
  "rule": "a question is dropped for both generators if either answer is rejected",
  "dropped_questions": [
+  "n01",
+  "n06",
+  "n08",
   "n17",
   "q04",
   "q13"
@@ -22,14 +25,11 @@
   "q14",
   "q15",
   "q16",
-  "n01",
   "n02",
   "n03",
   "n04",
   "n05",
-  "n06",
   "n07",
-  "n08",
   "n09",
   "n10",
   "n11",
@@ -209,8 +209,8 @@
   },
   "n01:B": {
    "slot": "X",
-   "decision": "accept",
-   "reason": ""
+   "decision": "reject",
+   "reason": "says notice is due before decommissioning 'the ETCS-equipped line'; the passage concerns decommissioning existing national systems (rule 1)"
   },
   "n01:A": {
    "slot": "Y",
@@ -264,8 +264,8 @@
   },
   "n06:B": {
    "slot": "Y",
-   "decision": "accept",
-   "reason": ""
+   "decision": "reject",
+   "reason": "attributes the 6 500 mm cap to lines of 250 km/h or more; in the table that footnote belongs to the v < 250 km/h column (rule 1)"
   },
   "n07:A": {
    "slot": "X",
@@ -279,8 +279,8 @@
   },
   "n08:B": {
    "slot": "X",
-   "decision": "accept",
-   "reason": ""
+   "decision": "reject",
+   "reason": "S1 has no citation marker (rule 2)"
   },
   "n08:A": {
    "slot": "Y",
@@ -447,5 +447,17 @@
    "decision": "accept",
    "reason": ""
   }
- }
+ },
+ "amendments": [
+  {
+   "date": "2026-11-02",
+   "by": "João Pedro Cardoso, in chat",
+   "what": "rejected n08 B, n01 B and n06 B after Claude flagged them while writing perturbations; before any judge call",
+   "answers": [
+    "n01:B",
+    "n06:B",
+    "n08:B"
+   ]
+  }
+ ]
 }

@@ -2,6 +2,8 @@
 
 **Outcome (2026-11-02):** the author reviewed the answers blind to the generator and accepted all except three (q04 B, n17 B, q13 B). Those three were flagged by Claude before the review, so blinding did not hold for them. The boxes were ticked by Claude on the author's instruction in chat; the X/Y key was applied only after the decision.
 
+**Amendment (2026-11-02, before any judge call):** after Claude flagged them while writing the planted errors, the author also rejected n08 B (no citation marker), n01 B (wrong object of the decommissioning) and n06 B (6 500 mm cap attributed to the wrong speed band). Reasons are in `review_outcome.json`; the boxes below show the original review.
+
 You see two answers per question, X and Y, in random order. You are not told which
 model wrote which. Judge each answer **against the passages shown**, as rendered below.
 
