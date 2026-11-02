@@ -1,0 +1,75 @@
+# Do LLM judges forgive errors in their own model's answers?
+
+**Status: DRAFT. Method, deviations and limitations are written; results are not.** Every number in the results section comes from `analysis/output/` after run 1 is complete. Nothing below the "Results" heading is an estimate until then.
+
+Author: João Pedro Cardoso. The design, the pre-registration, the planted errors and the code were drafted with Claude (Anthropic); no Anthropic model is a generator or a judge in this study.
+
+## 1. Question
+
+When an LLM judges whether an answer is faithful to its source passages, does it miss a planted error more often in an answer written by its own model than in one written by another model? The pre-registered primary hypothesis (H1) and its decision rules are in [`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md), committed as `1749db0` and pushed before any model was called for this study.
+
+## 2. Method (as run)
+
+**Corpus and questions.** EU railway law as processed in `cardohso/rail-regulation-rag` at `96ccee4`. 40 questions were drafted (16 from the rail golden set, 24 new); **34 survived review** (section 4).
+
+**Contexts.** Each question's context is its gold passage(s) plus the two highest-ranked non-gold passages by exact dense cosine similarity (BAAI/bge-small-en-v1.5), numbered by score. Generators and judges see the same context. `contexts/contexts.jsonl`, frozen before any answer was generated.
+
+**Base answers.** One answer per question from each of two generators, temperature 0, the rail repo's generation prompt unchanged:
+- A: `gemini-3.5-flash-lite` (Google), via the Gemini API;
+- B: `gpt-oss-120b` (OpenAI), via Cerebras, `reasoning_effort: low`.
+
+68 accepted base answers (34 per generator). Answers are never edited. All answers are rendered identically before anyone or anything sees them (whitespace and non-breaking hyphens normalised, section 4).
+
+**Planted errors.** Each copy of a base answer has exactly one change, enforced by code: one sentence rewritten, or one sentence appended. Five types, 306 copies:
+
+| Type | What changes | Copies |
+|---|---|---|
+| `ADD` | an appended sentence that no passage supports (the same sentence for both generators) | 68 |
+| `NUM` | one number changed; 36 to another value in the cited passage, 21 to a value in no passage | 57 |
+| `CITE` | one sentence's citation re-pointed to a passage that does not support it | 60 |
+| `NEG` | a requirement negated or its direction reversed | 58 |
+| `QUAL` | a modal weakened, or a condition or scope removed | 63 |
+
+Plus 68 unperturbed controls. Types that did not apply to an answer are absent, so counts differ by type. Of the 57 `NUM` edits, 50 were written by hand and 7 by code (section 4). Rules that kept an edit from leaving the claim implied by the original: a lower bound only moves up, an upper bound only down.
+
+**Judges.** One call per answer. The judge sees the passages, the question and the answer split into numbered sentences, and rates each sentence as supported or not against the passages it cites (prompt verbatim from pre-registration section 5.1). Temperature 0, JSON mode.
+
+| Label | Model | Family | Host |
+|---|---|---|---|
+| G | `gemini-3.5-flash-lite` (same model as generator A) | Google | Gemini API |
+| O | `gpt-oss-120b` (same model as generator B) | OpenAI | Cerebras |
+| Q | `qwen-3.8-27b` (neutral reference) | Alibaba | Cerebras |
+
+Three runs per judge and item, in a seeded random order per judge and run, run 1 complete for every judge before runs 2–3. Replies are cached by request and run number, so repeated runs are real calls. Free tiers only, with a daily request budget (Gemini 100, Cerebras 300 shared by O and Q); the runs were spread over days by a scheduled task.
+
+**Statistics.** Primary estimate Δ_SP = ½[(m_G(A) − m_G(B)) + (m_O(B) − m_O(A))] on run 1, with a bootstrap over questions (10 000 resamples). Decision rules, secondary analyses S1–S9 and robustness variants are as pre-registered and are implemented in `src/judgebias/analysis.py` and `analysis/run_analysis.py`, tested on synthetic data with known answers.
+
+## 3. Results
+
+*To be filled from `analysis/output/tables.md` and `results.json` once run 1 is complete (S4 and robustness variant (a) need run 3). Charts: `analysis/output/fig_delta_sp.svg`, `fig_miss_by_type.svg`.*
+
+## 4. Deviations and clarifications
+
+Dated, and made before any judge call unless stated.
+
+1. **34 questions, not 40** (2026-11-02). Reviewing the base answers rejected 3 gpt-oss answers (q04: declared insufficient; n17: a factual sentence with no citation marker; q13: citations to passages that do not exist). While writing the planted errors I flagged three more accepted answers (n08 B: no marker; n01 B: wrong object of "decommissioning"; n06 B: a footnote value attributed to the wrong speed band), and the author rejected them. A rejected answer drops its question for both generators. The pre-registered minimum of 30 was met. Details: `answers/review_outcome.json`.
+2. **Typography normalisation** (2026-11-02, clarification of section 5). gpt-oss writes U+202F and U+2011 characters (in 27 and 13 of its 40 answers) that Gemini never does, which could reveal the generator. All answers have non-breaking hyphens replaced by plain hyphens and whitespace normalised before judging (`src/judgebias/render.py`); the raw text is kept in `answers/answers.jsonl`.
+3. **How the reviews were recorded.** The review sheets were blinded, but edits made in them did not reach the disk. The author's decisions were given in chat and recorded by Claude, with the boxes ticked on that instruction. The question review accepted all 24 new questions. The base-answer review accepted every answer except the three above; those three had been flagged by Claude beforehand, so blinding did not hold for them. **The planted-error review accepted all 306 items with no rejections, so no independent check of the labels beyond the author's acceptance and the code checks exists.**
+4. **Who wrote the `NUM` edits.** The pre-registration assigned out-of-context `NUM` edits to code. For 14 of the 21 out-of-context edits (q07, n04, n09, n12, n13, n15, n19, both generators) a hand edit written by Claude was used instead, because goldpass's rule can move a lower bound down, which leaves the claim implied; every such value was checked by code to occur in no passage of its context. The other 7 (n05, n21, q09, q10) are goldpass's.
+5. **An interim look.** After the first day of run 1 I (Claude) printed raw miss counts on the partial data (Gemini 5 of 53 planted errors, gpt-oss 34 of 201, Qwen 0 of 4) to check that the pipeline worked. The analysis plan, prompts and items were not changed in response. The analysis script has refused to compute estimates on partial data since.
+6. **Budgets.** The Gemini daily budget of 100 requests was a conservative guess (the real quota was not visible for a new key), which lengthened the study to weeks.
+
+## 5. Limitations
+
+- One domain (EU railway law), English only, 34 questions. By the power simulation, effects of about 5 points or less cannot be detected reliably.
+- One model per family: this tests same-*model* preference, the strongest form, not family-level preference.
+- Free-tier models can change silently behind a stable id; call dates and response metadata are in `runs/`.
+- One judge prompt. Results may not transfer to other prompts, including goldpass's claim-based faithfulness prompt.
+- gpt-oss is a reasoning model and Gemini Flash-Lite is not; the crossed design removes judge-wide and generator-wide differences but not every interaction.
+- The planted errors are hand-crafted, most by an LLM (Claude), and may not look like natural hallucinations. One human reviewer, who accepted them all (deviation 3).
+- 44 of the 68 base answers are a single sentence, so for them the planted sentence is the whole answer, and "caught for the wrong reason" can only occur in the multi-sentence minority.
+- If the pooled miss rate is below 5%, H1 is reported as not testable rather than as "no effect" (pre-registration section 8.3).
+
+## 6. Relation to the CAPSI 2026 paper
+
+The paper argues that non-deterministic generative pipelines need evaluation that accounts for run-to-run variation and evaluator bias, and names self-preference in LLM judges as one such bias. This study is a small, pre-registered test of that bias in one domain, with run-to-run variation measured and not assumed away. The earlier null result in `rail-regulation-rag` (lesson 7) could not detect self-preference because faithfulness was at its ceiling; the planted errors here exist to give the judges something to forgive.
