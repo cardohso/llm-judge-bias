@@ -1,5 +1,7 @@
 # Review: planted errors (blinded)
 
+**Outcome (2026-11-02):** the author, João Pedro Cardoso, accepted all 306 planted errors, with no rejections. The decision was given in chat, because edits to this file did not reach the disk; Claude ticked the boxes on that instruction. The items are frozen from here: none are added, removed or regenerated after the first judge call.
+
 306 planted errors. Each shows one sentence before and after the change; every
 other sentence of the answer is unchanged (checked by code). The generator is hidden.
 
@@ -77,7 +79,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 - **After:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -88,7 +90,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 - **After:** For an electric multiple unit (EMU), the stationary noise level LpAeq,T[unit] must be at least 65 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -99,7 +101,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 - **After:** For all rolling stock, the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -110,7 +112,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 - **Appended:** This limit is measured with the main air compressor running for at least 10 minutes [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -121,7 +123,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The stationary noise limit LpAeq,T for an EMU is 65 dB [1].
 - **After:** The stationary noise level LpAeq,T for an EMU must be at least 65 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -132,7 +134,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The stationary noise limit LpAeq,T for an EMU is 65 dB [1].
 - **After:** The stationary noise limit LpAeq,T for an EMU is 65 dB [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -143,7 +145,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The stationary noise limit LpAeq,T for an EMU is 65 dB [1].
 - **Appended:** This limit is measured with the main air compressor running for at least 10 minutes [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -154,7 +156,7 @@ _a number was changed_
 - **Before:** The stationary noise limit LpAeq,T for an EMU is 65 dB [1].
 - **After:** The stationary noise limit LpAeq,T for an EMU is 64 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -165,7 +167,7 @@ _a number was changed_
 - **Before:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 65 dB [1].
 - **After:** For an electric multiple unit (EMU), the stationary noise limit LpAeq,T[unit] is 64 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -176,7 +178,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The stationary noise limit LpAeq,T for an EMU is 65 dB [1].
 - **After:** The stationary noise limit LpAeq,T for all rolling stock is 65 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -232,7 +234,7 @@ _a number was changed_
 - **Before:** The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 83 dB [1].
 - **After:** The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 81 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -243,7 +245,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 83 dB [1].
 - **After:** The pass-by noise level of wagons (normalised to APL = 0,225) at 80 km/h must be at least 83 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -254,7 +256,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 83 dB [1].
 - **Appended:** The limit is relaxed for wagons that entered service before 2005 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -265,7 +267,7 @@ _a number was changed_
 - **Before:** The pass-by noise limit for wagons at 80 km/h is 83 dB(A) [1].
 - **After:** The pass-by noise limit for wagons at 80 km/h is 81 dB(A) [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -276,7 +278,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The pass-by noise limit for wagons at 80 km/h is 83 dB(A) [1].
 - **Appended:** The limit is relaxed for wagons that entered service before 2005 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -287,7 +289,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The pass-by noise limit for wagons at 80 km/h is 83 dB(A) [1].
 - **After:** The pass-by noise limit for wagons at all speeds is 83 dB(A) [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -298,7 +300,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The pass-by noise limit for wagons at 80 km/h is 83 dB(A) [1].
 - **After:** The pass-by noise level of wagons at 80 km/h must be at least 83 dB(A) [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -309,7 +311,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The pass-by noise limit for wagons (normalised to APL = 0,225) at 80 km/h is 83 dB [1].
 - **After:** The pass-by noise limit for wagons (normalised to APL = 0,225) at all speeds is 83 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -366,7 +368,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 - **After:** The escape walkway should be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -377,7 +379,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 - **After:** The width of the escape walkway must be at most 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -388,7 +390,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 - **Appended:** Walkways must be at least 1,2 m wide in tunnels used by trains running faster than 200 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -399,7 +401,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1]. The minimum vertical clearance above the walkway must be 2.25 m [1].
 - **Appended:** Walkways must be at least 1,2 m wide in tunnels used by trains running faster than 200 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -410,7 +412,7 @@ _a number was changed_
 - **Before:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 - **After:** The width of the escape walkway must be at least 1.1 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -421,7 +423,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 - **After:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -432,7 +434,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The width of the escape walkway must be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 - **After:** The width of the escape walkway should be at least 0.8 m, though local constrictions caused by obstacles shall not reduce the minimum width to less than 0,7 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -443,7 +445,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 - **After:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -454,7 +456,7 @@ _a number was changed_
 - **Before:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 - **After:** The escape walkway must be at least 1.1 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -465,7 +467,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The escape walkway must be at least 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 - **After:** The escape walkway must be at most 0.8 m wide and have a minimum vertical clearance (headroom) of 2.25 m above it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -520,7 +522,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The maximum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 20 km for Category B [1].
 - **After:** The maximum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 20 km for Category B [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -531,7 +533,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The maximum distance between evacuation and rescue points in a tunnel is 5 km for Category A passenger rolling stock and 20 km for Category B passenger rolling stock, giving a difference of 15 km between the two categories [1].
 - **After:** The minimum distance between evacuation and rescue points in a tunnel is 5 km for Category A passenger rolling stock and 20 km for Category B passenger rolling stock, giving a difference of 15 km between the two categories [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -542,7 +544,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The maximum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 20 km for Category B [1].
 - **After:** The minimum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 20 km for Category B [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -553,7 +555,7 @@ _a number was changed_
 - **Before:** The maximum distance between evacuation and rescue points in a tunnel is 5 km for Category A passenger rolling stock and 20 km for Category B passenger rolling stock, giving a difference of 15 km between the two categories [1].
 - **After:** The maximum distance between evacuation and rescue points in a tunnel is 5 km for Category A passenger rolling stock and 5 km for Category B passenger rolling stock, giving a difference of 15 km between the two categories [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -564,7 +566,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Additionally, operation of Category A rolling stock is permitted on lines where the distance between evacuation and rescue points or the length of tunnels exceeds 5 km only when there are no passengers on board [2].
 - **After:** Additionally, operation of Category A rolling stock is permitted on lines where the distance between evacuation and rescue points or the length of tunnels exceeds 5 km [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -575,7 +577,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The maximum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 20 km for Category B [1]. Category A passenger rolling stock is for operation on lines where the distance between evacuation and rescue points or the length of tunnels does not exceed 5 km, whereas Category B passenger rolling stock is for operation in all tunnels on lines within the scope of the TSI, irrespective of the length of the tunnels [4]. Additionally, operation of Category A rolling stock is permitted on lines where the distance between evacuation and rescue points or the length of tunnels exceeds 5 km only when there are no passengers on board [2].
 - **Appended:** Category B rolling stock must keep running for 15 minutes at 80 km/h after a fire is detected [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -586,7 +588,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The maximum distance between evacuation and rescue points in a tunnel is 5 km for Category A passenger rolling stock and 20 km for Category B passenger rolling stock, giving a difference of 15 km between the two categories [1].
 - **Appended:** Category B rolling stock must keep running for 15 minutes at 80 km/h after a fire is detected [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -597,7 +599,7 @@ _a number was changed_
 - **Before:** The maximum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 20 km for Category B [1].
 - **After:** The maximum distance from the portals to an evacuation and rescue point and between evacuation and rescue points is 5 km for Category A and 5 km for Category B [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -647,7 +649,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** A passenger unit that is 250 m long must have 3 wheelchair spaces [1].
 - **After:** A passenger unit that is 250 m long must have 3 wheelchair spaces [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -658,7 +660,7 @@ _a number was changed_
 - **Before:** A passenger unit that is 250 m long must have 3 wheelchair spaces [1].
 - **After:** A passenger unit that is 250 m long must have 4 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -669,7 +671,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [1].
 - **After:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -680,7 +682,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [1].
 - **Appended:** Each wheelchair space must have its own power socket for electric wheelchairs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -691,7 +693,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [1].
 - **After:** A passenger unit of any length must have not less than 3 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -702,7 +704,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** A passenger unit that is 250 m long must have 3 wheelchair spaces [1].
 - **After:** A passenger unit of any length must have 3 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -713,7 +715,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [1].
 - **After:** A passenger unit with a length of more than 205 to 300 metres must have not more than 3 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -724,7 +726,7 @@ _a number was changed_
 - **Before:** A passenger unit with a length of more than 205 to 300 metres must have not less than 3 wheelchair spaces [1].
 - **After:** A passenger unit with a length of more than 205 to 300 metres must have not less than 4 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -735,7 +737,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** A passenger unit that is 250 m long must have 3 wheelchair spaces [1].
 - **After:** A passenger unit that is 250 m long may have at most 3 wheelchair spaces [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -746,7 +748,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** A passenger unit that is 250 m long must have 3 wheelchair spaces [1].
 - **Appended:** Each wheelchair space must have its own power socket for electric wheelchairs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -805,7 +807,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** All exterior passenger doorways shall have a minimum clear useable width of 800 mm when open [1].
 - **After:** All exterior passenger doorways shall have a minimum clear useable width of 800 mm when open [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -816,7 +818,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Wheelchair access doors offering level access must have a minimum clear usable width of 1 000 mm when open[1].
 - **After:** Wheelchair access doors offering level access should have a minimum clear usable width of 1 000 mm when open[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -827,7 +829,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** All exterior passenger doorways shall have a minimum clear useable width of 800 mm when open [1]. On trains with a design speed lower than 250 km/h, wheelchair access doors offering a level access shall have a minimum clear useable width of 1 000 mm when open [1].
 - **Appended:** Doors used for wheelchair access must also have a minimum clear height of 1 900 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -838,7 +840,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** All exterior passenger doorways shall have a minimum clear useable width of 800 mm when open [1].
 - **After:** All exterior passenger doorways shall have a maximum clear useable width of 800 mm when open [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -849,7 +851,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The minimum clear usable width of exterior passenger doors is 800 mm when open[1]. Wheelchair access doors offering level access must have a minimum clear usable width of 1 000 mm when open[1].
 - **Appended:** Doors used for wheelchair access must also have a minimum clear height of 1 900 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -860,7 +862,7 @@ _a number was changed_
 - **Before:** Wheelchair access doors offering level access must have a minimum clear usable width of 1 000 mm when open[1].
 - **After:** Wheelchair access doors offering level access must have a minimum clear usable width of 1 050 mm when open[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -871,7 +873,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The minimum clear usable width of exterior passenger doors is 800 mm when open[1].
 - **After:** The minimum clear usable width of exterior passenger doors is 800 mm when open [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -882,7 +884,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** All exterior passenger doorways shall have a minimum clear useable width of 800 mm when open [1].
 - **After:** All exterior passenger doorways should have a minimum clear useable width of 800 mm when open [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -893,7 +895,7 @@ _a number was changed_
 - **Before:** On trains with a design speed lower than 250 km/h, wheelchair access doors offering a level access shall have a minimum clear useable width of 1 000 mm when open [1].
 - **After:** On trains with a design speed lower than 250 km/h, wheelchair access doors offering a level access shall have a minimum clear useable width of 1 050 mm when open [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -904,7 +906,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The minimum clear usable width of exterior passenger doors is 800 mm when open[1].
 - **After:** The maximum clear usable width of exterior passenger doors is 800 mm when open[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -967,7 +969,7 @@ _a number was changed_
 - **Before:** The Energy TSI permits four traction power supply systems: AC 25 kV 50 Hz, AC 15 kV 16,7 Hz, DC 3 kV and DC 1,5 kV [4].
 - **After:** The Energy TSI permits four traction power supply systems: AC 25 kV 50 Hz, AC 15 kV 50 Hz, DC 3 kV and DC 1,5 kV [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -978,7 +980,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Energy TSI permits four traction power supply systems: AC 25 kV 50 Hz, AC 15 kV 16,7 Hz, DC 3 kV and DC 1,5 kV [4].
 - **After:** The Energy TSI permits four traction power supply systems: AC 25 kV 50 Hz, AC 15 kV 16,7 Hz, DC 3 kV and DC 1,5 kV [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -989,7 +991,7 @@ _a number was changed_
 - **Before:** The Energy TSI allows four traction power supply systems: AC 25 kV, 50 Hz; AC 15 kV, 16,7 Hz; DC 3 kV; and DC 1,5 kV [4].
 - **After:** The Energy TSI allows four traction power supply systems: AC 25 kV, 50 Hz; AC 15 kV, 50 Hz; DC 3 kV; and DC 1,5 kV [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1000,7 +1002,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Energy TSI permits four traction power supply systems: AC 25 kV 50 Hz, AC 15 kV 16,7 Hz, DC 3 kV and DC 1,5 kV [4]. For new lines with speeds greater than 250 km/h, only the two AC systems (AC 25 kV 50 Hz and AC 15 kV 16,7 Hz) may be used [2][4].
 - **Appended:** The DC 1,5 kV system may only be used on lines with speeds below 160 km/h [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1011,7 +1013,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** New lines with a speed greater than 250 km/h must be supplied with one of the AC systems listed in point 4.2.3 (a) and (b), which are AC 25 kV, 50 Hz and AC 15 kV, 16,7 Hz [2][4].
 - **After:** New lines with a speed greater than 250 km/h must not be supplied with one of the AC systems listed in point 4.2.3 (a) and (b), which are AC 25 kV, 50 Hz and AC 15 kV, 16,7 Hz [2][4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1022,7 +1024,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Energy TSI allows four traction power supply systems: AC 25 kV, 50 Hz; AC 15 kV, 16,7 Hz; DC 3 kV; and DC 1,5 kV [4]. New lines with a speed greater than 250 km/h must be supplied with one of the AC systems listed in point 4.2.3 (a) and (b), which are AC 25 kV, 50 Hz and AC 15 kV, 16,7 Hz [2][4].
 - **Appended:** The DC 1,5 kV system may only be used on lines with speeds below 160 km/h [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1033,7 +1035,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For new lines with speeds greater than 250 km/h, only the two AC systems (AC 25 kV 50 Hz and AC 15 kV 16,7 Hz) may be used [2][4].
 - **After:** For new lines with speeds greater than 250 km/h, neither of the two AC systems (AC 25 kV 50 Hz and AC 15 kV 16,7 Hz) may be used [2][4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1044,7 +1046,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** New lines with a speed greater than 250 km/h must be supplied with one of the AC systems listed in point 4.2.3 (a) and (b), which are AC 25 kV, 50 Hz and AC 15 kV, 16,7 Hz [2][4].
 - **After:** New lines must be supplied with one of the AC systems listed in point 4.2.3 (a) and (b), which are AC 25 kV, 50 Hz and AC 15 kV, 16,7 Hz [2][4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1055,7 +1057,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Energy TSI allows four traction power supply systems: AC 25 kV, 50 Hz; AC 15 kV, 16,7 Hz; DC 3 kV; and DC 1,5 kV [4].
 - **After:** The Energy TSI allows four traction power supply systems: AC 25 kV, 50 Hz; AC 15 kV, 16,7 Hz; DC 3 kV; and DC 1,5 kV [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1066,7 +1068,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** For new lines with speeds greater than 250 km/h, only the two AC systems (AC 25 kV 50 Hz and AC 15 kV 16,7 Hz) may be used [2][4].
 - **After:** For new lines, only the two AC systems (AC 25 kV 50 Hz and AC 15 kV 16,7 Hz) may be used [2][4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1124,7 +1126,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Class A train protection system is ETCS (European Train Control System), and the Class A radio system is RMR (Railway Mobile Radio system) [2]. RMR comprises two radio class A systems, which are GSM-R and FRMCS (Future Railway Mobile Communication System) [2].
 - **Appended:** ETCS must be fitted on all new high-speed lines from the date of their opening [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1135,7 +1137,7 @@ _a number was changed_
 - **Before:** RMR comprises two radio class A systems, which are GSM-R and FRMCS (Future Railway Mobile Communication System) [2].
 - **After:** RMR comprises six radio class A systems, which are GSM-R and FRMCS (Future Railway Mobile Communication System) [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1146,7 +1148,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Class A train protection system is ETCS (European Train Control System) and the Class A radio system is RMR (Railway Mobile Radio), which includes GSM-R and FRMCS (Future Railway Mobile Communication System)[2].
 - **Appended:** ETCS must be fitted on all new high-speed lines from the date of their opening [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1157,7 +1159,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Class A train protection system is ETCS (European Train Control System) and the Class A radio system is RMR (Railway Mobile Radio), which includes GSM-R and FRMCS (Future Railway Mobile Communication System)[2].
 - **After:** The Class A train protection system is ETCS (European Train Control System) and the Class A radio system is RMR (Railway Mobile Radio), which includes GSM-R and FRMCS (Future Railway Mobile Communication System) [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1168,7 +1170,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Class A train protection system is ETCS (European Train Control System), and the Class A radio system is RMR (Railway Mobile Radio system) [2].
 - **After:** The Class A train protection system is ETCS (European Train Control System), and the Class A radio system is RMR (Railway Mobile Radio system) [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1232,7 +1234,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above buffer on the transversal axis [2].
 - **After:** The rear end signal of a passenger train should consist of 2 steady red lights at the same height above buffer on the transversal axis [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1243,7 +1245,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above buffer on the transversal axis [2]. The rear end signal of a freight train shall consist of 2 reflective plates at the same height above buffer on the transversal axis, though any train equipped with 2 steady red lights shall also be considered to comply with this obligation [4].
 - **Appended:** The lights must be visible from at least 200 m in daylight [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1254,7 +1256,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The rear end signal of a freight train shall consist of 2 reflective plates at the same height above the buffer on the transversal axis, although a freight train equipped with 2 steady red lights also complies with the requirement [4].
 - **After:** The rear end signal of a freight train shall consist of 2 reflective plates at the same height above the buffer on the transversal axis, although a freight train equipped with 2 steady red lights does not comply with the requirement [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1265,7 +1267,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above the buffer on the transversal axis [2].
 - **After:** The rear end signal of a passenger train should consist of 2 steady red lights at the same height above the buffer on the transversal axis [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1276,7 +1278,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above the buffer on the transversal axis [2]. The rear end signal of a freight train shall consist of 2 reflective plates at the same height above the buffer on the transversal axis, although a freight train equipped with 2 steady red lights also complies with the requirement [4].
 - **Appended:** The lights must be visible from at least 200 m in daylight [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1287,7 +1289,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The rear end signal of a freight train shall consist of 2 reflective plates at the same height above buffer on the transversal axis, though any train equipped with 2 steady red lights shall also be considered to comply with this obligation [4].
 - **After:** The rear end signal of a freight train shall consist of 2 reflective plates at the same height above buffer on the transversal axis, though any train equipped with 2 steady red lights shall not be considered to comply with this obligation [4].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1298,7 +1300,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above the buffer on the transversal axis [2].
 - **After:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above the buffer on the transversal axis [5].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1309,7 +1311,7 @@ _a number was changed_
 - **Before:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above buffer on the transversal axis [2].
 - **After:** The rear end signal of a passenger train shall consist of 4 steady red lights at the same height above buffer on the transversal axis [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1320,7 +1322,7 @@ _a number was changed_
 - **Before:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above the buffer on the transversal axis [2].
 - **After:** The rear end signal of a passenger train shall consist of 4 steady red lights at the same height above the buffer on the transversal axis [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1331,7 +1333,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above buffer on the transversal axis [2].
 - **After:** The rear end signal of a passenger train shall consist of 2 steady red lights at the same height above buffer on the transversal axis [5].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1382,7 +1384,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025, and across the whole European Union rail network from 1 January 2026[1][1].
 - **After:** Freight trains equipped with two reflective plates may be accepted in Portugal from 1 January 2025, and across the whole European Union rail network from 1 January 2026[1][1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1393,7 +1395,7 @@ _a number was changed_
 - **Before:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025, and across the whole European Union rail network from 1 January 2026[1][1].
 - **After:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2022, and across the whole European Union rail network from 1 January 2026[1][1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1404,7 +1406,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 - **After:** Freight trains equipped with two reflective plates may be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1415,7 +1417,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025, and across the whole European Union rail network from 1 January 2026[1][1].
 - **After:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025, and across the whole European Union rail network until 1 January 2026[1][1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1426,7 +1428,7 @@ _a number was changed_
 - **Before:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 - **After:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2022 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1437,7 +1439,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 - **Appended:** Wagons not yet fitted with the plates may still run until their next scheduled maintenance [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1448,7 +1450,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network from 1 January 2026 [1].
 - **After:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025 along specified rail freight corridors, and across the whole European Union rail network until 1 January 2026 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1459,7 +1461,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Freight trains equipped with two reflective plates must be accepted in Portugal from 1 January 2025, and across the whole European Union rail network from 1 January 2026[1][1].
 - **Appended:** Wagons not yet fitted with the plates may still run until their next scheduled maintenance [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1516,7 +1518,7 @@ _a number was changed_
 - **Before:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2].
 - **After:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within three months of receipt of all relevant information [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1527,7 +1529,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2].
 - **After:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1538,7 +1540,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 - **Appended:** The deadline can be extended once if the applicant agrees [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1549,7 +1551,7 @@ _a number was changed_
 - **Before:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 - **After:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within three months of receipt of all relevant information from the applicant [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1560,7 +1562,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2]. Additionally, within one month of receipt of the applicant's request, the Agency shall inform the applicant that the file is complete or ask for relevant supplementary information, setting a reasonable deadline for the provision thereof [2].
 - **Appended:** The deadline can be extended once if the applicant agrees [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1571,7 +1573,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2].
 - **After:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case not before four months of receipt of all relevant information [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1582,7 +1584,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 - **After:** The Agency should issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1593,7 +1595,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 - **After:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case not before four months of receipt of all relevant information from the applicant [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1604,7 +1606,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [1][2].
 - **After:** The Agency must issue the vehicle authorisation for placing on the market, or inform the applicant of its negative decision, within a predetermined reasonable time and in any case within four months of receipt of all relevant information from the applicant [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1615,7 +1617,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The Agency shall issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2].
 - **After:** The Agency should issue vehicle authorisations for placing on the market or inform the applicant of its negative decision within a predetermined, reasonable time, and in any case within four months of receipt of all relevant information [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1664,7 +1666,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The doors must have a minimum clear opening of 1,4 m wide and 2,0 m high.[1]
 - **Appended:** The doors must open with a force of no more than 150 N [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1675,7 +1677,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The doors must have a minimum clear opening of 1,4 m wide and 2,0 m high.[1]
 - **After:** The doors should have a minimum clear opening of 1,4 m wide and 2,0 m high.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1686,7 +1688,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Doors giving access from the escape walkway to the safe area must have a minimum clear opening of 1,4 m wide and 2,0 m high [1].
 - **Appended:** The doors must open with a force of no more than 150 N [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1697,7 +1699,7 @@ _a number was changed_
 - **Before:** The doors must have a minimum clear opening of 1,4 m wide and 2,0 m high.[1]
 - **After:** The doors must have a minimum clear opening of 1,5 m wide and 2,0 m high.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1708,7 +1710,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Doors giving access from the escape walkway to the safe area must have a minimum clear opening of 1,4 m wide and 2,0 m high [1].
 - **After:** Doors giving access from the escape walkway to the safe area must have a maximum clear opening of 1,4 m wide and 2,0 m high [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1719,7 +1721,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The doors must have a minimum clear opening of 1,4 m wide and 2,0 m high.[1]
 - **After:** The doors must have a maximum clear opening of 1,4 m wide and 2,0 m high.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1730,7 +1732,7 @@ _a number was changed_
 - **Before:** Doors giving access from the escape walkway to the safe area must have a minimum clear opening of 1,4 m wide and 2,0 m high [1].
 - **After:** Doors giving access from the escape walkway to the safe area must have a minimum clear opening of 1,5 m wide and 2,0 m high [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1741,7 +1743,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Doors giving access from the escape walkway to the safe area must have a minimum clear opening of 1,4 m wide and 2,0 m high [1].
 - **After:** Doors giving access from the escape walkway to the safe area should have a minimum clear opening of 1,4 m wide and 2,0 m high [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1788,7 +1790,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 - **After:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall within the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1799,7 +1801,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1].
 - **After:** A new vehicle authorisation for placing on the market may be required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1810,7 +1812,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1].
 - **After:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are within the range of acceptable parameters as defined in the TSIs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1821,7 +1823,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 - **After:** A new vehicle authorisation for placing on the market may be required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1832,7 +1834,7 @@ _a number was changed_
 - **Before:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1].
 - **After:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 12 which are outside the range of acceptable parameters as defined in the TSIs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1843,7 +1845,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 - **After:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1854,7 +1856,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1].
 - **After:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1865,7 +1867,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 - **Appended:** Software updates that do not change any parameter never require a new authorisation [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1876,7 +1878,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** A new vehicle authorisation for placing on the market is required for renewed or upgraded existing vehicles if changes are made to the values of the parameters referred to in point (b) of paragraph 10 which are outside the range of acceptable parameters as defined in the TSIs [1]. It is also required if the overall safety level of the vehicle concerned may be adversely affected by the envisaged works, or if it is required by the relevant TSIs [1].
 - **Appended:** Software updates that do not change any parameter never require a new authorisation [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1887,7 +1889,7 @@ _a number was changed_
 - **Before:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 10 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 - **After:** A new vehicle authorisation for placing on the market is required when, after renewal or upgrading of an already-authorised vehicle, (a) changes are made to the values of the parameters referred to in point (b) of paragraph 12 that fall outside the range of acceptable parameters defined in the TSIs, (b) the overall safety level of the vehicle may be adversely affected by the works envisaged, or (c) the relevant TSIs require it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1936,7 +1938,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The language used for safety-related communication between the train crew and the staff authorising train movements is the operating language(s) used by the infrastructure manager on the route concerned [1].
 - **Appended:** Communication in English is always permitted as an alternative [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1947,7 +1949,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The train crew must use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 - **After:** The train crew must not use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1958,7 +1960,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The language used for safety-related communication between the train crew and the staff authorising train movements is the operating language(s) used by the infrastructure manager on the route concerned [1].
 - **After:** The language used for safety-related communication between the train crew and the staff authorising train movements is the operating language(s) used by the infrastructure manager on the route concerned [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1969,7 +1971,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The train crew must use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 - **After:** The train crew may use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1980,7 +1982,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The train crew must use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 - **Appended:** Communication in English is always permitted as an alternative [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -1991,7 +1993,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The language used for safety-related communication between the train crew and the staff authorising train movements is the operating language(s) used by the infrastructure manager on the route concerned [1].
 - **After:** The language used for safety-related communication between the train crew and the staff authorising train movements is not the operating language(s) used by the infrastructure manager on the route concerned [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2002,7 +2004,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The train crew must use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [1].
 - **After:** The train crew must use the operating language(s) used by the infrastructure manager on the route concerned for safety-related communication with the staff authorising train movements [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2051,7 +2053,7 @@ _a number was changed_
 - **Before:** It does not apply to short border-crossing lines with 1 520 mm track gauge that are connected to the network of third countries[1].
 - **After:** It does not apply to short border-crossing lines with 1 435 mm track gauge that are connected to the network of third countries[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2062,7 +2064,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [1].
 - **After:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2073,7 +2075,7 @@ _a number was changed_
 - **Before:** It excludes the infrastructure cases referred to in Article 1(3) and (4) of Directive (EU) 2016/797, as well as short border crossing lines with 1 520 mm track gauges that are connected to the network of third countries [1].
 - **After:** It excludes the infrastructure cases referred to in Article 1(3) and (4) of Directive (EU) 2016/797, as well as short border crossing lines with 1 435 mm track gauges that are connected to the network of third countries [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2084,7 +2086,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges[1]. It does not apply to short border-crossing lines with 1 520 mm track gauge that are connected to the network of third countries[1].
 - **Appended:** It also applies to 1 000 mm metre-gauge networks [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2095,7 +2097,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** It excludes the infrastructure cases referred to in Article 1(3) and (4) of Directive (EU) 2016/797, as well as short border crossing lines with 1 520 mm track gauges that are connected to the network of third countries [1].
 - **After:** It excludes the infrastructure cases referred to in Article 1(3) and (4) of Directive (EU) 2016/797, as well as short border crossing lines with 1 520 mm track gauges [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2106,7 +2108,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [1]. It excludes the infrastructure cases referred to in Article 1(3) and (4) of Directive (EU) 2016/797, as well as short border crossing lines with 1 520 mm track gauges that are connected to the network of third countries [1].
 - **Appended:** It also applies to 1 000 mm metre-gauge networks [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2117,7 +2119,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [1].
 - **After:** The CCS TSI does not apply to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2128,7 +2130,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** It does not apply to short border-crossing lines with 1 520 mm track gauge that are connected to the network of third countries[1].
 - **After:** It does not apply to short border-crossing lines with 1 520 mm track gauge[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2139,7 +2141,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges[1].
 - **After:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2150,7 +2152,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The CCS TSI applies to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges[1].
 - **After:** The CCS TSI does not apply to networks with 1 435 mm, 1 520 mm, 1 524 mm, 1 600 mm and 1 668 mm track gauges[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2205,7 +2207,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 - **After:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2216,7 +2218,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 - **Appended:** Shorter notice is allowed for requirements that only concern automatic train operation [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2227,7 +2229,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 - **After:** Railway undertakings should be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2238,7 +2240,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 - **After:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2249,7 +2251,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 - **After:** Railway undertakings must be notified of new mandatory on-board CCS requirements at most 5 years in advance [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2260,7 +2262,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 - **After:** Railway undertakings must be provided with notifications at most 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2271,7 +2273,7 @@ _a number was changed_
 - **Before:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 - **After:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 20 years in advance [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2282,7 +2284,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 - **Appended:** Shorter notice is allowed for requirements that only concern automatic train operation [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2293,7 +2295,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Railway undertakings must be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 - **After:** Railway undertakings should be notified of new mandatory on-board CCS requirements at least 5 years in advance [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2304,7 +2306,7 @@ _a number was changed_
 - **Before:** Railway undertakings must be provided with notifications at least 5 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 - **After:** Railway undertakings must be provided with notifications at least 20 years in advance in case there will be new mandatory on-board requirements for operating on the network [1][2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2352,7 +2354,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2363,7 +2365,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2374,7 +2376,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it foresees GSM-R decommissioning in the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2385,7 +2387,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State must leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2396,7 +2398,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **Appended:** It must then notify the Commission of this decision [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2407,7 +2409,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State must omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2418,7 +2420,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **Appended:** It must then notify the Commission of this decision [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2429,7 +2431,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it foresees GSM-R decommissioning in the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2440,7 +2442,7 @@ _a number was changed_
 - **Before:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State may omit the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 10 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2451,7 +2453,7 @@ _a number was changed_
 - **Before:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 20 years [1].
 - **After:** A Member State may leave out the GSM-R decommissioning section of its national implementation plan if it does not foresee GSM-R decommissioning in the next 10 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2506,7 +2508,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The train detection planning table must provide complete information of changes in the following 20 years [3].
 - **Appended:** The table must be updated every year [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2517,7 +2519,7 @@ _a number was changed_
 - **Before:** The train detection planning table must cover the next 20 years[3].
 - **After:** The train detection planning table must cover the next 30 years[3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2528,7 +2530,7 @@ _a number was changed_
 - **Before:** The train detection planning table must provide complete information of changes in the following 20 years [3].
 - **After:** The train detection planning table must provide complete information of changes in the following 30 years [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2539,7 +2541,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The train detection planning table must provide complete information of changes in the following 20 years [3].
 - **After:** The train detection planning table must provide complete information of changes in the following 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2550,7 +2552,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The train detection planning table must provide complete information of changes in the following 20 years [3].
 - **After:** The train detection planning table need not provide complete information of changes in the following 20 years [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2561,7 +2563,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The train detection planning table must cover the next 20 years[3].
 - **After:** The train detection planning table must cover the next 20 years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2572,7 +2574,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The train detection planning table must provide complete information of changes in the following 20 years [3].
 - **After:** The train detection planning table should provide complete information of changes in the following 20 years [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2583,7 +2585,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The train detection planning table must cover the next 20 years[3].
 - **After:** The train detection planning table need not cover the next 20 years[3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2594,7 +2596,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The train detection planning table must cover the next 20 years[3].
 - **Appended:** The table must be updated every year [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2605,7 +2607,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The train detection planning table must cover the next 20 years[3].
 - **After:** The train detection planning table should cover the next 20 years[3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2658,7 +2660,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** These values shall be adjusted taking into account the movement of the pantograph and track tolerances according to Appendix D.1.4 [1].
 - **After:** These values may be adjusted taking into account the movement of the pantograph and track tolerances according to Appendix D.1.4 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2669,7 +2671,7 @@ _a number was changed_
 - **Before:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [1].
 - **After:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 500 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2680,7 +2682,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [1]. These values shall be adjusted taking into account the movement of the pantograph and track tolerances according to Appendix D.1.4 [1].
 - **Appended:** On curves with a radius below 1 000 m the limit is reduced by 50 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2691,7 +2693,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [1].
 - **After:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2702,7 +2704,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [1].
 - **After:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2713,7 +2715,7 @@ _a number was changed_
 - **Before:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [1].
 - **After:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 500 mm for a 1 950 mm pantograph [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2724,7 +2726,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [1].
 - **Appended:** On curves with a radius below 1 000 m the limit is reduced by 50 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2735,7 +2737,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For a 1 600 mm pantograph, the maximum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [1].
 - **After:** For a 1 600 mm pantograph, the minimum lateral deviation of the contact wire is 400 mm, and for a 1 950 mm pantograph, it is 550 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2746,7 +2748,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The maximum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [1].
 - **After:** The minimum lateral deviation of the contact wire under cross-wind is 400 mm for a 1 600 mm pantograph and 550 mm for a 1 950 mm pantograph [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2806,7 +2808,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [1].
 - **Appended:** The neutral section must be located on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2817,7 +2819,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [1].
 - **Appended:** The neutral section must be located on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2828,7 +2830,7 @@ _a number was changed_
 - **Before:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [1].
 - **After:** The neutral section must be at least 420 m long when all pantographs of the longest train are inside it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2839,7 +2841,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [1].
 - **After:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2850,7 +2852,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [1].
 - **After:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2861,7 +2863,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [1].
 - **After:** The neutral section must be at least 402 m long [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2872,7 +2874,7 @@ _a number was changed_
 - **Before:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [1].
 - **After:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 420 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2883,7 +2885,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [1].
 - **After:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at most 402 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2894,7 +2896,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** On lines for 250 km/h or more, where all the pantographs of the longest TSI compliant trains are within the neutral section, the overall length of the neutral section shall be at least 402 m [1].
 - **After:** On lines for 250 km/h or more, the overall length of the neutral section shall be at least 402 m [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2905,7 +2907,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The neutral section must be at least 402 m long when all pantographs of the longest train are inside it [1].
 - **After:** The neutral section must be at most 402 m long when all pantographs of the longest train are inside it [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2967,7 +2969,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Only the contact wire and the steady arm may enter the pantograph gauge [1][3].
 - **After:** Only the contact wire and the steady arm may enter the pantograph gauge [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2978,7 +2980,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** No part of the energy sub-system shall enter the pantograph gauge, except for the contact wire and steady arm [1].
 - **After:** No part of the energy sub-system should enter the pantograph gauge, except for the contact wire and steady arm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -2989,7 +2991,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Only the contact wire and the steady arm may enter the pantograph gauge [1][3].
 - **After:** Only the contact wire and the steady arm must enter the pantograph gauge [1][3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3000,7 +3002,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** No part of the energy sub-system shall enter the pantograph gauge, except for the contact wire and steady arm [1].
 - **After:** No part of the energy sub-system shall enter the pantograph gauge, except for the contact wire and steady arm [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3011,7 +3013,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** No part of the energy sub-system shall enter the pantograph gauge, except for the contact wire and steady arm [1].
 - **After:** No part of the energy sub-system shall enter the pantograph gauge, including the contact wire and steady arm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3022,7 +3024,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** No part of the energy sub-system shall enter the pantograph gauge, except for the contact wire and steady arm [1].
 - **Appended:** Insulators may also enter it on lines with speeds below 160 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3033,7 +3035,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Only the contact wire and the steady arm may enter the pantograph gauge [1][3].
 - **After:** The contact wire and the steady arm may not enter the pantograph gauge [1][3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3044,7 +3046,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Only the contact wire and the steady arm may enter the pantograph gauge [1][3].
 - **Appended:** Insulators may also enter it on lines with speeds below 160 km/h [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3091,7 +3093,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** For large obstacles with a length from 1 m to less than 10 m, the minimum distance to the danger area is 120 cm [1].
 - **After:** For large obstacles with a length of 1 m or more, the minimum distance to the danger area is 120 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3102,7 +3104,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 - **Appended:** Benches count as large obstacles regardless of their length [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3113,7 +3115,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 80 cm [1].
 - **After:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 80 cm [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3124,7 +3126,7 @@ _a number was changed_
 - **Before:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 - **After:** For small obstacles (length < 1 m) the minimum distance to the danger area is 160 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3135,7 +3137,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 80 cm [1]. For large obstacles with a length from 1 m to less than 10 m, the minimum distance to the danger area is 120 cm [1].
 - **Appended:** Benches count as large obstacles regardless of their length [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3146,7 +3148,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 - **After:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3157,7 +3159,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 - **After:** For small obstacles (length < 1 m) the maximum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3168,7 +3170,7 @@ _a number was changed_
 - **Before:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 80 cm [1].
 - **After:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 160 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3179,7 +3181,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m to < 10 m) it is 120 cm [1].
 - **After:** For small obstacles (length < 1 m) the minimum distance to the danger area is 80 cm, and for large obstacles (length 1 m or more) it is 120 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3190,7 +3192,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For small obstacles with a length of less than 1 m, the minimum distance to the danger area is 80 cm [1].
 - **After:** For small obstacles with a length of less than 1 m, the maximum distance to the danger area is 80 cm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3238,7 +3240,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 - **After:** Internal steps (other than those for external access) should have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3249,7 +3251,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 - **After:** Internal steps in a passenger vehicle shall have a minimum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3260,7 +3262,7 @@ _a number was changed_
 - **Before:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 - **After:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 300 mm, measured at the central axis of the stairs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3271,7 +3273,7 @@ _a number was changed_
 - **Before:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 - **After:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 300 mm, measured at the central axis of the stairs[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3282,7 +3284,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 - **After:** Internal steps in a passenger vehicle should have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3293,7 +3295,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 - **After:** Internal steps (other than those for external access) shall have a minimum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3304,7 +3306,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1].
 - **After:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3315,7 +3317,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 - **After:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3326,7 +3328,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Internal steps (other than those for external access) shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs[1].
 - **Appended:** Each step must be lit by a light at floor level [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3337,7 +3339,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Internal steps in a passenger vehicle shall have a maximum height of 200 mm and a minimum depth of 280 mm, measured at the central axis of the stairs [1]. For double deck trains, it is permitted to reduce this depth value to 270 mm for the stairs accessing the upper deck and the lower deck [1].
 - **Appended:** Each step must be lit by a light at floor level [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3382,7 +3384,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 - **Appended:** It must be fitted with a safety strap [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3393,7 +3395,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The usable surface of a baby nappy changing table on a train must be a minimum of 500 mm wide and 700 mm long [1].
 - **After:** The usable surface of a baby nappy changing table on a train must be a maximum of 500 mm wide and 700 mm long [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3404,7 +3406,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 - **After:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3415,7 +3417,7 @@ _a number was changed_
 - **Before:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 - **After:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 100 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3426,7 +3428,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 - **After:** The usable surface of the baby nappy changing table must be at most 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3437,7 +3439,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The usable surface of a baby nappy changing table on a train must be a minimum of 500 mm wide and 700 mm long [1].
 - **After:** The usable surface of a baby nappy changing table on a train must be a minimum of 500 mm wide and 700 mm long [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3448,7 +3450,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Additionally, it must be able to take a minimum load of 80 kg [1].
 - **After:** Additionally, it should be able to take a minimum load of 80 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3459,7 +3461,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it must be able to take a minimum load of 80 kg [1].
 - **After:** The usable surface of the baby nappy changing table must be at least 500 mm wide and 700 mm long, and it should be able to take a minimum load of 80 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3470,7 +3472,7 @@ _a number was changed_
 - **Before:** Additionally, it must be able to take a minimum load of 80 kg [1].
 - **After:** Additionally, it must be able to take a minimum load of 100 kg [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3481,7 +3483,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The usable surface of a baby nappy changing table on a train must be a minimum of 500 mm wide and 700 mm long [1]. Additionally, it must be able to take a minimum load of 80 kg [1].
 - **Appended:** It must be fitted with a safety strap [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3534,7 +3536,7 @@ _a number was changed_
 - **Before:** Additionally, they must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **After:** Additionally, they must have a minimum clear distance of 50 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3545,7 +3547,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** All handrails fitted to a vehicle must be round in section with an outside diameter of 30 mm to 40 mm [1]. Additionally, they must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **Appended:** Handrails must be made of a non-conductive material [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3556,7 +3558,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **After:** Handrails should be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3567,7 +3569,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** All handrails fitted to a vehicle must be round in section with an outside diameter of 30 mm to 40 mm [1].
 - **After:** All handrails fitted to a vehicle should be round in section with an outside diameter of 30 mm to 40 mm [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3578,7 +3580,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Additionally, they must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **After:** Additionally, they must have a maximum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3589,7 +3591,7 @@ _a number was changed_
 - **Before:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **After:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 50 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3600,7 +3602,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **After:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a maximum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3611,7 +3613,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** All handrails fitted to a vehicle must be round in section with an outside diameter of 30 mm to 40 mm [1].
 - **After:** All handrails fitted to a vehicle must be round in section with an outside diameter of 30 mm to 40 mm [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3622,7 +3624,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **After:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3633,7 +3635,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Handrails shall be round in section with an outside diameter of 30 mm to 40 mm and must have a minimum clear distance of 45 mm to any adjacent surface other than its mountings [1].
 - **Appended:** Handrails must be made of a non-conductive material [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3707,7 +3709,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The noise limit for the driver's cab at standstill with horns sounding is 95 dB [1].
 - **After:** The noise limit for the driver's cab at standstill with horns sounding is 95 dB [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3718,7 +3720,7 @@ _a number was changed_
 - **Before:** At maximum speed vmax if vmax < 250 km/h, the noise limit is 78 dB [1].
 - **After:** At maximum speed vmax if vmax < 250 km/h, the noise limit is 75 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3729,7 +3731,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The noise limit for the driver's cab at standstill with horns sounding is 95 dB [1]. At maximum speed vmax if vmax < 250 km/h, the noise limit is 78 dB [1].
 - **Appended:** The measurement must be repeated with the cab windows open [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3740,7 +3742,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** At maximum speed vmax if vmax < 250 km/h, the noise limit is 78 dB [1].
 - **After:** At maximum speed, the noise limit is 78 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3751,7 +3753,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The noise limit for the driver's cab at standstill with horns sounding is 95 dB [1].
 - **After:** The minimum noise level for the driver's cab at standstill with horns sounding is 95 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3762,7 +3764,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** At standstill with horns sounding the limit is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 78 dB [1].
 - **After:** At standstill with horns sounding the minimum level is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 78 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3773,7 +3775,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** At standstill with horns sounding the limit is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 78 dB [1].
 - **Appended:** The measurement must be repeated with the cab windows open [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3784,7 +3786,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** At standstill with horns sounding the limit is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 78 dB [1].
 - **After:** At standstill with horns sounding the limit is 95 dB, and at maximum speed the limit is 78 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3795,7 +3797,7 @@ _a number was changed_
 - **Before:** At standstill with horns sounding the limit is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 78 dB [1].
 - **After:** At standstill with horns sounding the limit is 95 dB, and at maximum speed when vmax < 250 km/h the limit is 75 dB [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3852,7 +3854,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The train must accelerate from standstill up to 30 km/h before maintaining the speed [1].
 - **Appended:** The test must be carried out at night [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3863,7 +3865,7 @@ _a number was changed_
 - **Before:** The train must accelerate from standstill up to 30 km/h before maintaining the speed [1].
 - **After:** The train must accelerate from standstill up to 40 km/h before maintaining the speed [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3874,7 +3876,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The train must accelerate from standstill up to 30 km/h before maintaining the speed [1].
 - **After:** The train must accelerate from standstill up to 30 km/h before maintaining the speed [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3885,7 +3887,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 30 km/h and then maintain the speed [1]. Additionally, for the averaged level method and the maximum level method, the train shall accelerate from standstill up to 40 km/h and then maintain the speed [1].
 - **Appended:** The test must be carried out at night [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3896,7 +3898,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 30 km/h and then maintain the speed [1].
 - **After:** In the starting noise conformity test using the maximum level method, the train may accelerate from standstill up to 30 km/h and then maintain the speed [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3907,7 +3909,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The train must accelerate from standstill up to 30 km/h before maintaining the speed [1].
 - **After:** The train may accelerate from standstill up to 30 km/h before maintaining the speed [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3918,7 +3920,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 30 km/h and then maintain the speed [1].
 - **After:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 30 km/h and then maintain the speed [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3929,7 +3931,7 @@ _a number was changed_
 - **Before:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 30 km/h and then maintain the speed [1].
 - **After:** In the starting noise conformity test using the maximum level method, the train shall accelerate from standstill up to 40 km/h and then maintain the speed [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3980,7 +3982,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 - **After:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -3991,7 +3993,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 - **Appended:** The examination results must be kept for at least ten years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4002,7 +4004,7 @@ _a number was changed_
 - **Before:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 - **After:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every year if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4013,7 +4015,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Staff performing safety-critical tasks must undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 - **After:** Staff performing safety-critical tasks should undergo a systematic medical examination at least every 5 years if they are aged up to 40, every 3 years if they are aged between 41 and 62, and every year if they are aged over 62 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4024,7 +4026,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [1].
 - **After:** Under the OPE TSI, systematic periodic medical examinations for staff should be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4035,7 +4037,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [1]. Additionally, an increased frequency must be set by the medical doctor if the staff member's state of health requires it [1].
 - **Appended:** The examination results must be kept for at least ten years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4046,7 +4048,7 @@ _a number was changed_
 - **Before:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [1].
 - **After:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every year for staff aged between 41 and 62, and every year for staff aged over 62 [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4057,7 +4059,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [1].
 - **After:** Under the OPE TSI, systematic periodic medical examinations for staff must be performed at least every 5 years for staff aged up to 40, every 3 years for staff aged between 41 and 62, and every year for staff aged over 62 [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4111,7 +4113,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1]. However, sanding is still appropriate if there is a risk of SPAD (Signal Passed At Danger) or another serious incident and applying sand assists adhesion, when starting away, or when required to test the sanding equipment on the traction unit [1].
 - **Appended:** Sand must not be applied in tunnels longer than 1 km [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4122,7 +4124,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1].
 - **After:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4133,7 +4135,7 @@ _a number was changed_
 - **Before:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1].
 - **After:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 25 km/h, and when at standstill[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4144,7 +4146,7 @@ _a number was changed_
 - **Before:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1].
 - **After:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 25 km/h, and when at standstill [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4155,7 +4157,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1].
 - **After:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking, and when at standstill[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4166,7 +4168,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1].
 - **After:** Drivers equipped with manually activated sanding equipment shall use it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4177,7 +4179,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1].
 - **After:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4188,7 +4190,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1].
 - **After:** The driver shall use manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4199,7 +4201,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill [1].
 - **After:** Drivers equipped with manually activated sanding equipment shall avoid using it in the area of points and crossings, during braking, and when at standstill [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4210,7 +4212,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The driver shall avoid using manually activated sanding equipment wherever possible: in the area of points and crossings, during braking at speeds less than 20 km/h, and when at standstill[1]. Sanding is still appropriate if there is a risk of SPAD or another serious incident and sand would improve adhesion, when starting away, or when required to test the sanding equipment on the traction unit[1].
 - **Appended:** Sand must not be applied in tunnels longer than 1 km [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4252,7 +4254,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and equivalent response time on level track [1].
 - **Appended:** This information must be updated every time the timetable changes [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4263,7 +4265,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and the equivalent response time on level track [1].
 - **After:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may not provide the deceleration profile and the equivalent response time on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4274,7 +4276,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and the equivalent response time on level track [1].
 - **After:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager must provide the deceleration profile and the equivalent response time on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4285,7 +4287,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and equivalent response time on level track [1].
 - **After:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may not provide the deceleration profile and equivalent response time on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4296,7 +4298,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and the equivalent response time on level track [1].
 - **Appended:** This information must be updated every time the timetable changes [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4307,7 +4309,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and equivalent response time on level track [1].
 - **After:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and equivalent response time on level track [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4318,7 +4320,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and the equivalent response time on level track [1].
 - **After:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and the equivalent response time on level track [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4329,7 +4331,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager may provide the deceleration profile and equivalent response time on level track [1].
 - **After:** For trains able to run at a maximum speed higher than 200 km/h, the infrastructure manager must provide the deceleration profile and equivalent response time on level track [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4377,7 +4379,7 @@ _a number was changed_
 - **Before:** The Agency must begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate.[1]
 - **After:** The Agency must begin the consultation process without delay and, in any case, within 10 days of receiving the Commission’s mandate.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4388,7 +4390,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** The Agency must begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate.[1]
 - **After:** The Agency should begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate.[1]
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4399,7 +4401,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** The Agency must begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate.[1]
 - **After:** The Agency must begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4410,7 +4412,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [1].
 - **After:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4421,7 +4423,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** The Agency must begin the consultation process without delay and, in any case, within 20 days of receiving the Commission’s mandate.[1]
 - **Appended:** The consultation must be completed within 60 days [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4432,7 +4434,7 @@ _a number was changed_
 - **Before:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [1].
 - **After:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 10 days of the date of receipt of that mandate [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4443,7 +4445,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [1].
 - **Appended:** The consultation must be completed within 60 days [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4454,7 +4456,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** After receiving a mandate from the Commission, the Agency must start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [1].
 - **After:** After receiving a mandate from the Commission, the Agency should start the consultation process with the concerned parties without delay and in any case within 20 days of the date of receipt of that mandate [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4510,7 +4512,7 @@ _a number was changed_
 - **Before:** Specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h [1].
 - **After:** Specially upgraded high-speed lines are equipped for speeds of the order of 250 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4521,7 +4523,7 @@ _a number was changed_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 - **After:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 250 km/h[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4532,7 +4534,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 - **Appended:** Lines in both categories must be fully equipped with ETCS [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4543,7 +4545,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 - **After:** Specially built high-speed lines are equipped for speeds equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4554,7 +4556,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h [1].
 - **After:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4565,7 +4567,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h [1].
 - **After:** Specially built high-speed lines are equipped for speeds equal to or greater than 250 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4576,7 +4578,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 - **After:** Specially built high-speed lines are equipped for speeds generally equal to or less than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4587,7 +4589,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h [1].
 - **After:** Specially built high-speed lines are equipped for speeds generally equal to or less than 250 km/h [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4598,7 +4600,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h[1], while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h[1].
 - **After:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h, while specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4609,7 +4611,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Specially built high-speed lines are equipped for speeds generally equal to or greater than 250 km/h [1]. Specially upgraded high-speed lines are equipped for speeds of the order of 200 km/h [1].
 - **Appended:** Lines in both categories must be fully equipped with ETCS [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4656,7 +4658,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [1].
 - **After:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4667,7 +4669,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [1].
 - **After:** After the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4678,7 +4680,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [1].
 - **After:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, should be carried out [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4689,7 +4691,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [1].
 - **Appended:** The exercise must then be repeated every two years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4700,7 +4702,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [1].
 - **After:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4711,7 +4713,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [1].
 - **After:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures should take place, involving all categories of personnel defined within the emergency plan [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4722,7 +4724,7 @@ _a requirement was negated or its direction reversed_
 - **Before:** Before opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [1].
 - **After:** After opening a tunnel longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures, involving all categories of personnel defined within the emergency plan, must be carried out [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4733,7 +4735,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** Prior to the opening of a single tunnel or a series of tunnels longer than 1 km, a full-scale exercise comprising evacuation and rescue procedures must take place, involving all categories of personnel defined within the emergency plan [1].
 - **Appended:** The exercise must then be repeated every two years [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4782,7 +4784,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** It must be possible to switch off each section of the contact line, either locally or remotely [1].
 - **Appended:** Each section must be no longer than 5 km [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4793,7 +4795,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** In tunnels of more than 1 km length where the traction power supply is divided into sections, it must be possible to switch off each section of the contact line, either locally or remotely [1].
 - **After:** In tunnels of more than 1 km length where the traction power supply is divided into sections, it must be possible to switch off each section of the contact line, remotely [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4804,7 +4806,7 @@ _a sentence was appended that no passage supports_
 - **Answer:** In tunnels of more than 1 km length where the traction power supply is divided into sections, it must be possible to switch off each section of the contact line, either locally or remotely [1].
 - **Appended:** Each section must be no longer than 5 km [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4815,7 +4817,7 @@ _an obligation was weakened/strengthened, or a condition/exception was removed_
 - **Before:** It must be possible to switch off each section of the contact line, either locally or remotely [1].
 - **After:** It must be possible to switch off each section of the contact line, remotely [1].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4826,7 +4828,7 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** In tunnels of more than 1 km length where the traction power supply is divided into sections, it must be possible to switch off each section of the contact line, either locally or remotely [1].
 - **After:** In tunnels of more than 1 km length where the traction power supply is divided into sections, it must be possible to switch off each section of the contact line, either locally or remotely [3].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
 
@@ -4837,6 +4839,6 @@ _the citation now points to a passage that does not support the sentence_
 - **Before:** It must be possible to switch off each section of the contact line, either locally or remotely [1].
 - **After:** It must be possible to switch off each section of the contact line, either locally or remotely [2].
 
-- [ ] Accept  - [ ] Reject
+- [x] Accept  - [ ] Reject
 
 **Note:** 
