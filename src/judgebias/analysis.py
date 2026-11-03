@@ -46,7 +46,8 @@ class Outcome:
 
     @property
     def invalid(self) -> bool:
-        return not self.is_control and self.planted not in self.verdicts
+        """No usable verdict: for a copy, none for the planted sentence; for a control, none."""
+        return not self.verdicts if self.is_control else self.planted not in self.verdicts
 
     @property
     def miss(self) -> bool | None:
@@ -71,7 +72,7 @@ class Outcome:
 
     @property
     def false_alarm(self) -> bool | None:
-        if not self.is_control:
+        if not self.is_control or self.invalid:
             return None
         return any(not v for v in self.verdicts.values())
 

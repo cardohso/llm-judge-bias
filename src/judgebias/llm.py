@@ -75,8 +75,19 @@ class ChatClient:
             **self.model.extra_body,
         }
 
-    def chat(self, system: str, user: str, run: int, *, validate: Callable[[str], Any]) -> Reply:
-        """Cached by (request, run). `validate` raises ValueError for a reply to retry."""
+    def chat(
+        self,
+        system: str,
+        user: str,
+        run: int,
+        *,
+        validate: Callable[[str], Any],
+        record_invalid: bool = False,
+    ) -> Reply:
+        """Cached by (request, run). `validate` raises ValueError for a reply to retry. After
+        the retries a malformed reply raises ChatError, or with `record_invalid` is stored and
+        returned flagged `meta["invalid"]` (pre-registration section 5.2: the item's outcome is
+        then "invalid" and the run goes on)."""
         payload = self.request(system, user)
         if (hit := self.cache.get(payload, run)) is not None:
             stored = json.loads(hit)
@@ -86,9 +97,11 @@ class ChatClient:
             try:
                 validate(content)
             except ValueError as e:
-                if attempt == MALFORMED_RETRIES:
+                if attempt < MALFORMED_RETRIES:
+                    continue
+                if not record_invalid:
                     raise ChatError(f"malformed reply after retries: {e}: {content[:200]!r}") from e
-                continue
+                meta |= {"invalid": f"{e}", "attempts": attempt + 1}
             meta |= {"run": run, "request": payload, "provider": self.provider.name}
             self.cache.set(payload, run, json.dumps({"content": content, "meta": meta}))
             return Reply(content, meta, cached=False)
@@ -124,12 +137,16 @@ class ChatClient:
             raise ChatError(f"HTTP {resp.status_code}: {resp.text[:300]}")
         try:
             body = resp.json()
-            content = body["choices"][0]["message"]["content"]
-        except (ValueError, KeyError, IndexError, TypeError) as e:
+            choice = body["choices"][0]
+            content = choice["message"].get("content")
+        except (ValueError, KeyError, IndexError, TypeError, AttributeError) as e:
             raise ChatError(f"unexpected response shape: {resp.text[:300]}") from e
-        if not isinstance(content, str):
-            raise ChatError(f"no text content in response: {resp.text[:300]}")
+        extra = {}
+        if not isinstance(content, str) or not content.strip():
+            # e.g. a reasoning model that spent all max_tokens thinking (finish_reason "length")
+            content, extra = "", {"empty_reply_finish_reason": choice.get("finish_reason")}
         meta = {
+            **extra,
             "response_model": body.get("model"),
             "response_id": body.get("id"),
             "system_fingerprint": body.get("system_fingerprint"),

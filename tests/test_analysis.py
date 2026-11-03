@@ -20,7 +20,18 @@ from judgebias.analysis import (
 
 
 def o(item="i", q="q1", gen="A", typ="NUM", judge="G", run=1, verdicts=None, planted=1, n=2):
-    return Outcome(item, q, gen, typ, "", judge, run, n, verdicts or {1: True, 2: True}, planted)
+    return Outcome(
+        item,
+        q,
+        gen,
+        typ,
+        "",
+        judge,
+        run,
+        n,
+        {1: True, 2: True} if verdicts is None else verdicts,
+        planted,
+    )
 
 
 def test_outcome_definitions():
@@ -134,3 +145,9 @@ def test_own_vs_other_counts_discordant_matched_pairs():
     assert (r["pairs"], r["own_only"], r["other_only"]) == (2, 1, 0)
     assert math.isclose(r["p"], 1.0)
     json.dumps(r)
+
+
+def test_empty_verdicts_make_a_control_invalid_not_a_clean_pass():
+    ctrl = o(typ="CONTROL", planted=None, verdicts={})
+    assert ctrl.invalid and ctrl.false_alarm is None
+    assert o(verdicts={}).invalid

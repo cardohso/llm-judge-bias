@@ -136,3 +136,29 @@ def test_budget_stop_keeps_finished_rows_and_resumes(tmp_path):
     client.budget.limits["cerebras"] = 100
     again = run(tmp_path, client)
     assert len(again) == 12 and client.calls == 12
+
+
+def empty_reply(request):
+    msg = {"reasoning": "thinking...", "content": None}
+    return httpx.Response(
+        200, json={"id": "x", "choices": [{"finish_reason": "length", "message": msg}]}
+    )
+
+
+def test_reply_without_content_is_retried_then_recorded_invalid_and_the_run_goes_on(tmp_path):
+    calls = {"n": 0}
+
+    def handler(request):
+        calls["n"] += 1
+        user = json.loads(request.content)["messages"][1]["content"]
+        return empty_reply(request) if "S one 0 " in user else ok(request)
+
+    client = make_client(tmp_path, handler)
+    rows = run(tmp_path, client)
+    assert len(rows) == 12  # the run did not stop
+    bad = [r for r in rows if r["content"] == ""]
+    assert len(bad) == 1 and bad[0]["meta"]["invalid"] and bad[0]["meta"]["attempts"] == 3
+    assert bad[0]["meta"]["empty_reply_finish_reason"] == "length"
+    assert calls["n"] == 11 + 3  # three tries for the bad item
+    run(tmp_path, client)
+    assert calls["n"] == 14  # the invalid outcome is cached, not retried forever

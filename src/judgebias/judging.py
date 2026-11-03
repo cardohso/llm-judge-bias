@@ -81,7 +81,7 @@ def judge_items(
     for n, item in enumerate(run_order(items, judge, run)[:limit], 1):
         ctx = contexts[item["question"]]
         user = user_message(template, ctx["question"], ctx["passages"], item["sentences"])
-        reply = client.chat(system, user, run, validate=parse_verdicts)
+        reply = client.chat(system, user, run, validate=parse_verdicts, record_invalid=True)
         meta = {k: v for k, v in reply.meta.items() if k != "request"}
         on_row({
             "item": item["id"],
