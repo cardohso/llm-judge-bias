@@ -58,6 +58,7 @@ Dated, and made before any judge call unless stated.
 4. **Who wrote the `NUM` edits.** The pre-registration assigned out-of-context `NUM` edits to code. For 14 of the 21 out-of-context edits (q07, n04, n09, n12, n13, n15, n19, both generators) a hand edit written by Claude was used instead, because goldpass's rule can move a lower bound down, which leaves the claim implied; every such value was checked by code to occur in no passage of its context. The other 7 (n05, n21, q09, q10) are goldpass's.
 5. **An interim look.** After the first day of run 1 I (Claude) printed raw miss counts on the partial data (Gemini 5 of 53 planted errors, gpt-oss 34 of 201, Qwen 0 of 4) to check that the pipeline worked. The analysis plan, prompts and items were not changed in response. The analysis script has refused to compute estimates on partial data since.
 6. **Budgets.** The Gemini daily budget of 100 requests was a conservative guess (the real quota was not visible for a new key), which lengthened the study to weeks.
+7. **Two pipeline fixes during run 1** (2026-11-03; no prompt, item, model or setting changed). (a) The run script stopped every judge as soon as one provider's budget was used up, so on day 2 the Cerebras judges did not run; judges now continue independently. (b) A reply with no text, from a reasoning model that spent all 4 096 tokens thinking, aborted the run; it is now retried twice and then recorded as invalid, as section 5.2 requires. Neither fix touched a reply already received: the affected item had none.
 
 ## 5. Limitations
 
