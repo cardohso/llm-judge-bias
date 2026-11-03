@@ -63,6 +63,9 @@ def main() -> int:
             if not done.exists() or len(jsonl(done)) < len(items):
                 print(f"Run 1 is not complete for judge {j}; finish it before run {args.run}.")
                 return 2
+    worst = (
+        0  # a stop for one judge (budget, error) must not skip the others: their providers differ
+    )
     for j in args.judges:
         model = JUDGES[j]
         client = ChatClient(model, cache, budget, log=print)
@@ -85,7 +88,6 @@ def main() -> int:
         out = ROOT / f"runs/run{args.run}_{j}.jsonl"
         if out.exists():
             rows = {r["item"]: r for r in jsonl(out)}
-        status = 0
         try:
             judge_items(
                 items,
@@ -100,10 +102,10 @@ def main() -> int:
             )
         except BudgetExceeded as e:
             print(f"Stopped: {e}. Re-run after the daily reset; finished replies are cached.")
-            status = 3
+            worst = max(worst, 3)
         except ChatError as e:
             print(f"Stopped: {e}")
-            status = 1
+            worst = max(worst, 1)
         finally:
             out.parent.mkdir(exist_ok=True)
             ordered = [
@@ -111,9 +113,7 @@ def main() -> int:
             ]
             out.write_text("".join(json.dumps(r, ensure_ascii=False) + "\n" for r in ordered))
             print(f"{j}: {len(ordered)}/{len(items)} rows in {out.relative_to(ROOT)}")
-        if status:
-            return status
-    return 0
+    return worst
 
 
 if __name__ == "__main__":
