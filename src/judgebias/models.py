@@ -36,7 +36,7 @@ PROVIDERS: dict[str, Provider] = {
         "https://generativelanguage.googleapis.com/v1beta/openai",
         "GEMINI_API_KEY",
         min_interval_s=4.0,
-        daily_requests=100,
+        daily_requests=400,  # 100 until 2026-11-03; no 429 seen in ~200 calls (REPORT.md, 4.6)
     ),
     "cerebras": Provider(
         "cerebras", "https://api.cerebras.ai/v1", "CEREBRAS_API_KEY", 12.5, daily_requests=300
