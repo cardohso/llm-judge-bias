@@ -4,7 +4,9 @@
 
 A small, pre-registered experiment: **do LLM judges forgive errors in answers written by their own model?**
 
-**Status: runs in progress, no result yet.** The pre-registration ([`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md), commit `1749db0`) was public before any model was called. The method, deviations and limitations are in [`REPORT.md`](REPORT.md); its results section stays empty until the judge runs finish. The analysis script refuses to compute any estimate until run 1 is complete for all three judges.
+**Status: run-1 results are in; runs 2 and 3 (run-to-run variation) are in progress.** The pre-registration ([`docs/PREREGISTRATION.md`](docs/PREREGISTRATION.md), commit `1749db0`) was public before any model was called. Full results, deviations and limitations: [`REPORT.md`](REPORT.md).
+
+**Result (pre-registered primary test):** no self-preference of 10 points or more. Neither judge missed more planted errors in its own model's answers: Δ_SP = −0.01 (95% CI −0.03 to 0.01). **Main descriptive finding:** almost every miss was a weakened obligation or dropped condition ("must" → "should"): Gemini missed 83% of them, gpt-oss 79%, Qwen 51%, while added claims and wrong citations were caught every time. Whether those misses are judge blind spots or arguable labels cannot be separated here (one reviewer).
 
 ## In 30 seconds
 
