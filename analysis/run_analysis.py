@@ -139,8 +139,9 @@ def analyse(items, runs) -> dict:
         s1[j]["wrong_reason"] = rate(
             boot, [(o.question, o.wrong_reason) for o in mine if o.wrong_reason is not None]
         )
-        controls = [o for o in mine if o.is_control]
+        controls = [o for o in mine if o.is_control and not o.invalid]
         s2[j] = {
+            "invalid_controls": sum(o.is_control and o.invalid for o in mine),
             "answer": rate(boot, [(o.question, o.false_alarm) for o in controls]),
             "sentence": rate(boot, [(o.question, not v) for o in controls for v in o.verdicts.values()]),
         }  # fmt: skip
@@ -231,6 +232,12 @@ def tables(res: dict) -> str:
     for j, r in res["S2_false_alarm"].items():
         L.append(f"| {j} | answer | {rate_row(r['answer'])} |")
         L.append(f"| {j} | sentence | {rate_row(r['sentence'])} |")
+    L.append("")
+    L.append(
+        "Controls with no usable verdict (excluded above): "
+        + ", ".join(f"{j} {r['invalid_controls']}" for j, r in res["S2_false_alarm"].items())
+        + "."
+    )
 
     L += ["", "## S3. Agreement between judges (run 1)", "",
           "| Units | n | Fleiss κ | κ G–O | κ G–Q | κ O–Q | % agree |",
@@ -294,9 +301,11 @@ def charts(res: dict, out: Path = OUT) -> None:
         (k.replace("_", " "), v) for k, v in res["S8_robustness"].items() if v is not None
     ]
     fig, ax = plt.subplots(figsize=(7, 0.42 * len(rows) + 1.2))
-    ax.axvspan(
-        -0.10, 0.10, color="#e8e7e2", zorder=0, label="±10 points (smallest effect of interest)"
-    )
+    ax.axvspan(-0.10, 0.10, color="#e8e7e2", zorder=0)
+    ax.set_xlim(-0.15, 0.15)
+    ax.set_ylim(-0.6, len(rows) - 0.1)
+    ax.text(0.0, len(rows) - 0.35, "shaded: ±10 points, the smallest effect of interest",
+            ha="center", va="center", fontsize=8, color="#5f5e5a")  # fmt: skip
     ax.axvline(0, color="#8a8a85", lw=1)
     for y, (_, r) in enumerate(reversed(rows)):
         lo, hi = r["ci95"]
@@ -304,7 +313,6 @@ def charts(res: dict, out: Path = OUT) -> None:
         ax.plot(r["delta"], y, "o", color="#2a78d6", ms=8, mec="#fcfcfb", mew=2)
     ax.set_yticks(range(len(rows)), [n for n, _ in reversed(rows)])
     ax.set_xlabel("Δ_SP: extra miss rate on the judge's own model's answers (95% CI)")
-    ax.legend(loc="lower right", frameon=False, fontsize=8)
     fig.tight_layout()
     fig.savefig(out / "fig_delta_sp.svg")
     plt.close(fig)

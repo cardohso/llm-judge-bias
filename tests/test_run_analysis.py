@@ -31,6 +31,9 @@ def fake_study(n_q=12):
     for i in items:
         for j in "GOQ":
             for r in (1, 2, 3):
+                if i["id"] == "n00-A-CONTROL" and j == "Q" and r == 1:  # an invalid control
+                    runs[j, r].append({"item": i["id"], "judge": j, "run": r, "content": ""})
+                    continue
                 own = (j, i["generator"]) in {("G", "A"), ("O", "B")}
                 v = {1: rng.random() > 0.05, 2: rng.random() < (0.45 if own else 0.2)}
                 if i["type"] == "CONTROL":
@@ -52,6 +55,7 @@ def test_full_pipeline_on_a_synthetic_study(tmp_path):
     assert res["primary"]["decision"] in {"self-preference", "inconclusive"}
     assert res["S8_robustness"]["a_majority_of_3_runs"] is not None
     assert res["S4_run_to_run"]["G"]["across_runs"]["units"] > 0
+    assert res["S2_false_alarm"]["Q"]["invalid_controls"] == 1
     md = ra.tables(res)
     assert "## Primary" in md and "## S8. Robustness" in md and "nan" not in md
     ra.charts(res, tmp_path)
